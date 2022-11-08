@@ -4,6 +4,8 @@ import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 
+import { ytRequestAPI } from "../src/service/requestServices";
+
 function HomePage() {
   const estilosDaHomepage = { 
     // backgroundColor: "red"
@@ -22,7 +24,18 @@ function HomePage() {
         <Menu />
         <Banner />
         <Header />
-        <TimeLine playlists={config.playlists} >
+        <TimeLine
+          channelsList={[
+            "UCcoxGCRGcq6FhHbEvr2y9Vg",
+            "UCAMExYqcweM7PUebKfmLdFA",
+            "UC8tnKW-FN6LdvKazw5RmOOQ",
+            "UCC27hiJO_njp6v81Wd0b96g",
+            "UC7-Pp09PJX_SYP9oyMzUAtg",
+            "UCawkKjxvsJ1oShKVK4xxfJQ",
+            "UCETjsiWHrAHyADOih7ACwHw",
+            "UCag6nJdH24c2LHRvebYJwRQ"]}
+          // playlists={config.playlists}
+        >
           Conteúdo
         </TimeLine>
       </div>
@@ -98,30 +111,48 @@ function Header() {
 }
 
 function TimeLine(props) {
-  const playlistsNames = Object.keys(props.playlists)
+  // const playlistsNames = Object.keys(props.playlists)
+  const channelsList = props.channelsList
+  const params = {
+    "baseUrl": 'https://www.googleapis.com/youtube/v3/search?',
+    "query": {
+      "key": NEXT_PUBLIC_YT_API_KEY,
+      "part": "snippet",
+      "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+      "order": "date",
+      "maxResults": "10"
+    }
+  }
 
   return (
     <StyledTimeline>
-      {playlistsNames.map((playlistName) => {
+      {/* {playlistsNames.map((playlistName) => { */}
+      {channelsList.map((channelId) => {
+        // const videos = props.playlists[playlistName]
         const videos = props.playlists[playlistName]
-        return (
-          <section>
-            <h2>{playlistName}</h2>
-            <div>
-              {videos.map((video) => {
-                return (
-                  <a href={video.url}>
-                    <img src={video.thumb} />
-                    <spam>
-                      {video.title}
-                    </spam>
-                  </a>
-                )
-              })}
-            </div>
-          </section>
-        )
+        ytRequestAPI(params)
+          .then(data => {
+            const items = data.items
+            return (
+              <section>
+                <h2>{playlistName}</h2>
+                <div>
+                  {videos.map((video) => {
+                    return (
+                      <a href={video.url}>
+                        <img src={video.thumb} />
+                        <spam>
+                          {video.title}
+                        </spam>
+                      </a>
+                    )
+                  })}
+                </div>
+              </section>
+            )
+          })
       })}
     </StyledTimeline>
   )
 }
+

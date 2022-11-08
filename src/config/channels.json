@@ -1,0 +1,344 @@
+{  
+  "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "kRQSCgk0Kctw5ouoHBGR0FyhB6Y",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "cg5winGpx80"
+        },
+        "snippet": {
+          "publishedAt": "2022-07-28T16:04:06Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Comunismo: princípios básicos e guia de leitura",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/cg5winGpx80/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/cg5winGpx80/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/cg5winGpx80/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-07-28T16:04:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WZvzN_H6DGaBVMeoN9cGWEfVyVg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3qNmIXaFSr8"
+        },
+        "snippet": {
+          "publishedAt": "2022-07-04T20:07:33Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Integralismo, estudo de caso sobre o fenômeno fascista",
+          "description": "Livro \"Páginas Verdes de uma Imprensa Marrom\" de Vinicius Ramos: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3qNmIXaFSr8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3qNmIXaFSr8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3qNmIXaFSr8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-07-04T20:07:33Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "KbVeFb-NL4gXxe8qVb6Q803pM2o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bQ2419sZ7bw"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-19T02:00:17Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Como crescer no TikTok (e fazer o socialismo crescer junto)",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bQ2419sZ7bw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bQ2419sZ7bw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bQ2419sZ7bw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-19T02:00:17Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Wz-11JGz8KYAStACzpEGvS8TNFY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "_XHmDtAKEqU"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-16T14:20:02Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Por que odiamos? Ep. 2: Fernando Collor de Mello",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_XHmDtAKEqU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_XHmDtAKEqU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_XHmDtAKEqU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-16T14:20:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "b4DMtZ5QfsJydZhi7TWaQy2yKN4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "xyAXEvFDOHc"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-01T20:00:37Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "(Áudio) O que é Maoísmo? Um panorama histórico e teórico (part. João Pedro Fragoso)",
+          "description": "Lançamento do João Pedro Fragoso \"Paz, Pão e Terra: a história do país dos sovietes\" ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xyAXEvFDOHc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xyAXEvFDOHc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xyAXEvFDOHc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-01T20:00:37Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "G9Ui-3NGCeqnDgrW5cXdBE7UWv8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "PY6aNPXzQ3I"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-16T09:07:13Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Holodomor, o mito da &quot;fome-genocídio&quot; na Ucrânia (1932-1933)",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/PY6aNPXzQ3I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/PY6aNPXzQ3I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/PY6aNPXzQ3I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-16T09:07:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "DVONgxiQ37Aq78zVOAqC_AHOPBo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "hA5at-tlWAY"
+        },
+        "snippet": {
+          "publishedAt": "2022-02-28T03:16:31Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Ucrânia: O que foi o &quot;Euromaidan&quot; (2013-2014)?",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hA5at-tlWAY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hA5at-tlWAY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hA5at-tlWAY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-02-28T03:16:31Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "IB-dJcc7xY3GCwVG78b56jB2myU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "so-myrwx3rw"
+        },
+        "snippet": {
+          "publishedAt": "2022-02-14T06:01:41Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Think Tanks: Conceito, História e Exemplos",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/so-myrwx3rw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/so-myrwx3rw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/so-myrwx3rw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-02-14T06:01:41Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Sp-5I-EPa824XxsrWrnXliFzejg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "G4QZFJVToNg"
+        },
+        "snippet": {
+          "publishedAt": "2022-01-29T06:56:02Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Por que odiamos? Ep. 1: Margaret Thatcher",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G4QZFJVToNg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G4QZFJVToNg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G4QZFJVToNg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-01-29T06:56:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "o0H-PsShLrzr9ruXtsHgH8wmjPc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kELGgaTx84s"
+        },
+        "snippet": {
+          "publishedAt": "2022-01-09T00:56:15Z",
+          "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          "title": "Laos Parte 1: Criando um Estado-nação",
+          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kELGgaTx84s/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kELGgaTx84s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kELGgaTx84s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "História Pública",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-01-09T00:56:15Z"
+        }
+      }
+    ]
+}
