@@ -20,6 +20,7 @@ function HomePage() {
         // backgroundColor: "red",
       }}>
         <Menu />
+        <Banner />
         <Header />
         <TimeLine playlists={config.playlists} >
           Conteúdo
@@ -31,6 +32,27 @@ function HomePage() {
 
 export default HomePage
 
+const StyledBanner = styled.div`
+  width: 95%;
+  margin: 0 auto;
+
+  img {
+    margin-top: 50px;
+    min-width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0px -50px;
+  }
+`;
+
+function Banner() {
+  return (
+    <StyledBanner>
+      <img src={`./${config.banner}`} />
+    </StyledBanner>
+  )
+}
+
 // function Menu() {
 //   return (
 //     <div>
@@ -41,12 +63,13 @@ export default HomePage
 
 const StyledHeader = styled.div`
   img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    border: 10px solid white;
   }
   .user-info {
-    margin-top: 50px;
+    margin-top: -50px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -63,7 +86,7 @@ function Header() {
         <img src={`https://github.com/${config.github}.png`} />
         <div>
           <h2>
-            {config.name}
+            {`${config.name} (${config.github})`}
           </h2>
           <p>
             {config.job}
