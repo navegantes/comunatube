@@ -1,0 +1,83 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "konYHTjn2Z3GqTEu77v-Hgesrkk",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "BR",
+  "pageInfo": {
+    "totalResults": 23,
+    "resultsPerPage": 10
+  },
+  "História Pública": [
+    {
+      "title": "Comunismo: princípios básicos e guia de leitura",
+      "url": "https://www.youtube.com/watch?v=cg5winGpx80",
+      "thumb": "https://i.ytimg.com/vi/cg5winGpx80/hqdefault.jpg",
+      "publishedAt": "2022-07-28T16:04:06Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+      "profile": "https://yt3.ggpht.com/lWFpvf26Be7TGgOoMSRdkMnuYj5nXquwKQxWREo0GByytxgO5AMV6AcVlzWI8wlxX2Pdr-vp=s800-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Integralismo, estudo de caso sobre o fenômeno fascista",
+      "url": "https://www.youtube.com/watch?v=3qNmIXaFSr8",
+      "publishedAt": "2022-07-04T20:07:33Z",
+      "description": "Livro \"Páginas Verdes de uma Imprensa Marrom\" de Vinicius Ramos: ...",
+      "thumb": "https://i.ytimg.com/vi/3qNmIXaFSr8/hqdefault.jpg"
+    },
+    {
+      "title": "Como crescer no TikTok (e fazer o socialismo crescer junto)",
+      "url": "https://www.youtube.com/watch?v=bQ2419sZ7bw",
+      "thumb": "https://i.ytimg.com/vi/bQ2419sZ7bw/hqdefault.jpg",
+      "publishedAt": "2022-06-19T02:00:17Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "Por que odiamos? Ep. 2: Fernando Collor de Mello",
+      "url": "https://www.youtube.com/watch?v=_XHmDtAKEqU",
+      "thumb": "https://i.ytimg.com/vi/_XHmDtAKEqU/hqdefault.jpg",
+      "publishedAt": "2022-05-16T14:20:02Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "(Áudio) O que é Maoísmo? Um panorama histórico e teórico (part. João Pedro Fragoso)",
+      "url": "https://www.youtube.com/watch?v=xyAXEvFDOHc",
+      "thumb": "https://i.ytimg.com/vi/xyAXEvFDOHc/hqdefault.jpg",
+      "publishedAt": "2022-04-01T20:00:37Z",
+      "description": "Lançamento do João Pedro Fragoso \"Paz, Pão e Terra: a história do país dos sovietes\" ..."
+    },
+    {
+      "title": "Holodomor, o mito da &quot;fome-genocídio&quot; na Ucrânia (1932-1933)",
+      "url": "https://www.youtube.com/watch?v=PY6aNPXzQ3I",
+      "thumb": "https://i.ytimg.com/vi/PY6aNPXzQ3I/hqdefault.jpg",
+      "publishTime": "2022-03-16T09:07:13Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "Ucrânia: O que foi o &quot;Euromaidan&quot; (2013-2014)?",
+      "url": "https://www.youtube.com/watch?v=hA5at-tlWAY",
+      "thumb": "https://i.ytimg.com/vi/hA5at-tlWAY/hqdefault.jpg",
+      "publishTime": "2022-02-28T03:16:31Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "Think Tanks: Conceito, História e Exemplos",
+      "url": "https://www.youtube.com/watch?v=so-myrwx3rw",
+      "thumb":  "https://i.ytimg.com/vi/so-myrwx3rw/hqdefault.jpg",
+      "publishedAt": "2022-02-14T06:01:41Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "Por que odiamos? Ep. 1: Margaret Thatcher",
+      "url": "https://www.youtube.com/watch?v=G4QZFJVToNg",
+      "thumb": "https://i.ytimg.com/vi/G4QZFJVToNg/hqdefault.jpg",
+      "publishedAt": "2022-01-29T06:56:02Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    },
+    {
+      "title": "Laos Parte 1: Criando um Estado-nação",
+      "url": "https://www.youtube.com/watch?v=kELGgaTx84s",
+      "thumb": "https://i.ytimg.com/vi/kELGgaTx84s/hqdefault.jpg",
+      "publishedAt": "2022-01-09T00:56:15Z",
+      "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+    }
+  ]
+}

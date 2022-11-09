@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import config from "../config.json";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import config from "../src/config/myconfig.json";
 
 function HomePage() {
   const estilosDaHomepage = { 
@@ -22,7 +22,18 @@ function HomePage() {
         <Menu />
         <Banner />
         <Header />
-        <TimeLine playlists={config.playlists} >
+        <TimeLine
+          playlists={config.playlists}
+          // channelsList={[
+          //   "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          //   "UCAMExYqcweM7PUebKfmLdFA",
+          //   "UC8tnKW-FN6LdvKazw5RmOOQ",
+          //   "UCC27hiJO_njp6v81Wd0b96g",
+          //   "UC7-Pp09PJX_SYP9oyMzUAtg",
+          //   "UCawkKjxvsJ1oShKVK4xxfJQ",
+          //   "UCETjsiWHrAHyADOih7ACwHw",
+          //   "UCag6nJdH24c2LHRvebYJwRQ"]}
+        >
           Conteúdo
         </TimeLine>
       </div>
@@ -106,11 +117,14 @@ function TimeLine(props) {
         const videos = props.playlists[playlistName]
         return (
           <section>
-            <h2>{playlistName}</h2>
-            <div>
+            <div className="header">
+              <img src={videos[0].profile} />
+              <h2>{playlistName}</h2>
+            </div>
+            <div className="playlist">
               {videos.map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a href={video.url} target="_blank">
                     <img src={video.thumb} />
                     <spam>
                       {video.title}
@@ -125,3 +139,4 @@ function TimeLine(props) {
     </StyledTimeline>
   )
 }
+

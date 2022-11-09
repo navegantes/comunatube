@@ -6,8 +6,9 @@ export const StyledTimeline = styled.div`
   padding: 16px;
   overflow: hidden;
   h2 {
-    font-size: 16px;
-    margin-bottom: 16px;
+    font-size: 24px;
+    /* margin-bottom: 16px; */
+    margin-left: 16px;
     text-transform: capitalize;
   }
   img {
@@ -23,7 +24,21 @@ export const StyledTimeline = styled.div`
     padding: 0;
     overflow: hidden;
     padding: 16px;
-    div {
+
+    
+    &>.header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+
+    .playlist {
       
       width: calc(100vw - 16px * 4);
       display: grid;
@@ -33,8 +48,12 @@ export const StyledTimeline = styled.div`
       grid-auto-columns: minmax(200px,1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
+
       a {
         scroll-snap-align: start;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
         span {
           padding-top: 8px;
           display: block;
