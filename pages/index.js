@@ -1,10 +1,8 @@
 import styled from "styled-components";
-import config from "../config.json";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
-
-import { ytRequestAPI } from "../src/service/requestServices";
+import config from "../src/config/myconfig.json";
 
 function HomePage() {
   const estilosDaHomepage = { 
@@ -25,16 +23,16 @@ function HomePage() {
         <Banner />
         <Header />
         <TimeLine
-          channelsList={[
-            "UCcoxGCRGcq6FhHbEvr2y9Vg",
-            "UCAMExYqcweM7PUebKfmLdFA",
-            "UC8tnKW-FN6LdvKazw5RmOOQ",
-            "UCC27hiJO_njp6v81Wd0b96g",
-            "UC7-Pp09PJX_SYP9oyMzUAtg",
-            "UCawkKjxvsJ1oShKVK4xxfJQ",
-            "UCETjsiWHrAHyADOih7ACwHw",
-            "UCag6nJdH24c2LHRvebYJwRQ"]}
-          // playlists={config.playlists}
+          playlists={config.playlists}
+          // channelsList={[
+          //   "UCcoxGCRGcq6FhHbEvr2y9Vg",
+          //   "UCAMExYqcweM7PUebKfmLdFA",
+          //   "UC8tnKW-FN6LdvKazw5RmOOQ",
+          //   "UCC27hiJO_njp6v81Wd0b96g",
+          //   "UC7-Pp09PJX_SYP9oyMzUAtg",
+          //   "UCawkKjxvsJ1oShKVK4xxfJQ",
+          //   "UCETjsiWHrAHyADOih7ACwHw",
+          //   "UCag6nJdH24c2LHRvebYJwRQ"]}
         >
           Conteúdo
         </TimeLine>
@@ -111,46 +109,32 @@ function Header() {
 }
 
 function TimeLine(props) {
-  // const playlistsNames = Object.keys(props.playlists)
-  const channelsList = props.channelsList
-  const params = {
-    "baseUrl": 'https://www.googleapis.com/youtube/v3/search?',
-    "query": {
-      "key": NEXT_PUBLIC_YT_API_KEY,
-      "part": "snippet",
-      "channelId": "UCcoxGCRGcq6FhHbEvr2y9Vg",
-      "order": "date",
-      "maxResults": "10"
-    }
-  }
+  const playlistsNames = Object.keys(props.playlists)
 
   return (
     <StyledTimeline>
-      {/* {playlistsNames.map((playlistName) => { */}
-      {channelsList.map((channelId) => {
-        // const videos = props.playlists[playlistName]
+      {playlistsNames.map((playlistName) => {
         const videos = props.playlists[playlistName]
-        ytRequestAPI(params)
-          .then(data => {
-            const items = data.items
-            return (
-              <section>
-                <h2>{playlistName}</h2>
-                <div>
-                  {videos.map((video) => {
-                    return (
-                      <a href={video.url}>
-                        <img src={video.thumb} />
-                        <spam>
-                          {video.title}
-                        </spam>
-                      </a>
-                    )
-                  })}
-                </div>
-              </section>
-            )
-          })
+        return (
+          <section>
+            <div className="header">
+              <img src={videos[0].profile} />
+              <h2>{playlistName}</h2>
+            </div>
+            <div className="playlist">
+              {videos.map((video) => {
+                return (
+                  <a href={video.url} target="_blank">
+                    <img src={video.thumb} />
+                    <spam>
+                      {video.title}
+                    </spam>
+                  </a>
+                )
+              })}
+            </div>
+          </section>
+        )
       })}
     </StyledTimeline>
   )

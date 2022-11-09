@@ -3,282 +3,282 @@
   "job": "Computer Engineer",
   "github": "navegantes",
   "banner": "lenin.jpg",
-  "playlists": [
-    {
-      "id": "UC8tnKW-FN6LdvKazw5RmOOQ",
-      "uploads": "UU8tnKW-FN6LdvKazw5RmOOQ",
-      "channel": {
-        "title": "Soberana",
-        "description": "Bem vindo(a) à Soberana!\n\nSomos um coletivo de criadores marxistas-leninistas dedicados à produção de conteúdo para a internet. Nosso objetivo é ocupar a internet com o pensamento comunista de múltiplas maneiras: entretenimento político, divulgação científica, análises do discurso etc. A Soberana é composta por dez criadores:\n\nAzhariel ( https://linktr.ee/azhariel )\nBonzago ( https://linktr.ee/bonzago )\nComuninja ( https://linktr.ee/Comuninja )\nFroggy ( https://linktr.ee/0froggy )\nGus ( https://linktr.ee/gbringel )\nGroselha Atômica ( https://groselhaatomica.carrd.co/ )\nHistória Pública ( https://linktr.ee/historiapublica )\nHistoriatopia ( https://linktr.ee/historiatopia )\nLyslimon ( https://linktr.ee/lyslimon )\nPonzuzu ( https://linktr.ee/runascomponzi )\nVinnyDays ( https://linktr.ee/vinnydays )\nZawacki ( https://lfzawacki.github.io/links/ )\n",
-        "url": "https://yt3.ggpht.com/QE5GYo7XeUFal7JinpIsf0NhEGAiahXBh-y9JH77xjmZ3ScH0MiFVzUAuXEh1dtiAB97kJA6=s240-c-k-c0x00ffffff-no-rj"
+  "logo": "logo.png",
+  "playlists": {
+    "História Pública": [
+      {
+        "title": "Comunismo: princípios básicos e guia de leitura",
+        "url": "https://www.youtube.com/watch?v=cg5winGpx80",
+        "thumb": "https://i.ytimg.com/vi/cg5winGpx80/hqdefault.jpg",
+        "publishedAt": "2022-07-28T16:04:06Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ...",
+        "profile": "https://yt3.ggpht.com/lWFpvf26Be7TGgOoMSRdkMnuYj5nXquwKQxWREo0GByytxgO5AMV6AcVlzWI8wlxX2Pdr-vp=s800-c-k-c0x00ffffff-no-rj"
       },
-      "bannerExternalUrl": "https://yt3.ggpht.com/fCnOfecHsBWmAtDyZjJLAQ1zebMGwL8yMJhiisKEa4JmqN-ggfYXmNXj7Ck10JTq5caTBQWYqQ",
-      "items": [
-        {
-          "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLnU1RDQxUV93Z1pz",
-          "publishedAt": "2022-10-29T17:52:26Z",
-          "title": "QUEM FAZ A SOBERANA - BONZAGO",
-          "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Bonzago:\n- Tiktok: https://www.tiktok.com/@cortescanhotos\n- Twitter: https://twitter.com/bonzago\n- Instagram:  https://www.instagram.com/cortescanhotos/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV",
-          "thumbnails": "https://i.ytimg.com/vi/u5D41Q_wgZs/sddefault.jpg",
-          "playlistId": "UU8tnKW-FN6LdvKazw5RmOOQ",
-          "videoId": "u5D41Q_wgZs"
-        },
-        {
-          "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLmZJLVNkQkZvOXhr",
-          "publishedAt": "2022-10-16T02:55:14Z",
-          "title": "QUEM FAZ A SOBERANA - JOÃO CARVALHO",
-          "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do João:\n- Youtube: https://www.youtube.com/c/assimdisseojoao/videos\n- Twitter: https://twitter.com/assimdisseojoao\n- Twitch: https://www.twitch.tv/assimdisseojoao\n- Instagram:  https://www.instagram.com/assimdisseojoao/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV",
-          "thumbnails": "https://i.ytimg.com/vi/fI-SdBFo9xk/sddefault.jpg",
-          "playlistId": "UU8tnKW-FN6LdvKazw5RmOOQ",
-          "videoId": "fI-SdBFo9xk"
-        },
-        {
-          "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLlVtX3E5SUVGU0JV",
-          "publishedAt": "2022-10-09T20:00:13Z",
-          "channelId": "UC8tnKW-FN6LdvKazw5RmOOQ",
-          "title": "QUEM FAZ A SOBERANA - GUS",
-          "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Gus:\n- Loja Cão Feio: https://caofeio.com.br/\n- Twitter: https://twitter.com/gu_bringel\n- Twitch: https://www.twitch.tv/comuna_paint\n- Instagram:  https://www.instagram.com/gu.bringel/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV",
-          "thumbnails": "https://i.ytimg.com/vi/Um_q9IEFSBU/sddefault.jpg",
-          "playlistId": "UU8tnKW-FN6LdvKazw5RmOOQ",
-          "videoId": "Um_q9IEFSBU"
-        },
-        {
-          "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLkZ3RmV2R0J1T0tJ",
-          "publishedAt": "2022-10-01T20:00:06Z",
-          "channelId": "UC8tnKW-FN6LdvKazw5RmOOQ",
-          "title": "QUEM FAZ A SOBERANA - FROGGY",
-          "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Froggy\n- Twitter: https://twitter.com/0froggy1\n- Twitch: https://www.twitch.tv/0froggy\n- Tiktok: https://www.tiktok.com/@lsaporiti\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV",
-          "thumbnails": "https://i.ytimg.com/vi/FwFevGBuOKI/sddefault.jpg",
-          "playlistId": "UU8tnKW-FN6LdvKazw5RmOOQ",
-          "videoId": "FwFevGBuOKI"
-        },
-        {
-          "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLmwwMXV1eXBFam9v",
-          "publishedAt": "2022-09-30T15:00:11Z",
-          "channelId": "UC8tnKW-FN6LdvKazw5RmOOQ",
-          "title": "Soberana nas Eleições - Carol Vigilar (Unidade Popular)",
-          "description": "No Soberana nas Eleições de hoje nós temos uma entrevista com a Carol Vigilar, candidata ao governo de São Paulo pela Unidade Popular.\n\nSiga a Carol nas redes:\nTwitter: https://twitter.com/CarolVigliar\nInstagram: https://www.instagram.com/carolvigliar.up/\n\nSiga o Movimento de Mulheres Olga Benário:\nhttps://www.instagram.com/movimentoolga/\n\nSiga a Soberana nas Redes:\nDiscord: https://discord.gg/eB4mVkgWyX\nTwitter: https://twitter.com/Soberana_TV\nInstagram: https://www.instagram.com/soberana.tv/\n\nEntrevistador: https://twitter.com/VinnyDays\nEdição: https://twitter.com/bonzago\nArte da Thumbnail: https://twitter.com/panquetriste",
-          "thumbnails": "https://i.ytimg.com/vi/l01uuypEjoo/sddefault.jpg",
-          "playlistId": "UU8tnKW-FN6LdvKazw5RmOOQ",
-          "videoId": "l01uuypEjoo"
-        }
-      ]
-    },
-    {
-      "id": "UCag6nJdH24c2LHRvebYJwRQ",
-      "uploads": "UUag6nJdH24c2LHRvebYJwRQ",
-      "channel": {
-        "title": "Revolushow ™",
-        "description": "Irreverência, socialismo e tudo que há de bom na esquerda.\nEstes foram os ingredientes escolhidos para criar um podcast esquerdaralho.\nMas o professor Karl Marx, acidentalmente, acrescentou um ingrediente extra na mistura: O elemento que quer destruir a exploração do homem pelo homem!\nE assim nasceram os podcasters do Revolushow, usando seus ultra-super poderes, Zamiliano, João Carvalho, Larissa Coutinho, Diego Miranda e Jones Manoel, têm dedicado suas vidas combatendo a falta de bom senso, e as forças do Capital!",
-        "url": "https://yt3.ggpht.com/ytc/AMLnZu-4qRrqLfqHr9Jz4SKFOyghpwiJavTJJMDfIc9k=s240-c-k-c0x00ffffff-no-rj"
+      {
+        "title": "Integralismo, estudo de caso sobre o fenômeno fascista",
+        "url": "https://www.youtube.com/watch?v=3qNmIXaFSr8",
+        "thumb": "https://i.ytimg.com/vi/3qNmIXaFSr8/hqdefault.jpg",
+        "publishedAt": "2022-07-04T20:07:33Z",
+        "description": "Livro \"Páginas Verdes de uma Imprensa Marrom\" de Vinicius Ramos: ..."
       },
-      "bannerExternalUrl": "https://lh3.googleusercontent.com/xd1bX2n0RKVZt-l13mCcSIFRn6IO6O_82e3jXQLmD26go8jW6Cd8XG-njPKl31fJo4UKsGNZQIU",
-      "items": [
-        {
-          "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLmY1VjIyekRBTC00",
-          "publishedAt": "2022-10-26T01:26:02Z",
-          "title": "O segundo Turno tá pegando fogo",
-          "description": "Zamiliano, Larissa Coutinho, Julia Rocha, Jones Manoel e Diego Miranda vão papear com vocês sobre a reta final do segunda turno das eleições presidenciais brasileiras.",
-          "thumbnails": "https://i.ytimg.com/vi/f5V22zDAL-4/sddefault.jpg",
-          "playlistId": "UUag6nJdH24c2LHRvebYJwRQ",
-          "videoId": "f5V22zDAL-4"
-        },
-        {
-          "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLjZlYk1QOFhMY0ZR",
-          "publishedAt": "2022-09-29T01:57:39Z",
-          "title": "O que querem os comunistas nas eleições? Léo Péricles",
-          "description": "Zamiliano, Julia Rocha, Diego Miranda, Larissa Coutinho e (talvez) Jones Manoel entrevistarão Léo Péricles, candidato à presidência pela Unidade Popular (UP)",
-          "thumbnails": "https://i.ytimg.com/vi/6ebMP8XLcFQ/sddefault.jpg",
-          "playlistId": "UUag6nJdH24c2LHRvebYJwRQ",
-          "videoId": "6ebMP8XLcFQ"
-        },
-        {
-          "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLjJOaWhrUVNJN0RJ",
-          "publishedAt": "2022-09-23T01:32:21Z",
-          "title": "O que querem os comunistas no governo? - com Sofia Manzano",
-          "description": "Zamiliano, Julia Rocha, Diego Miranda e Larissa coutinho entrevistam a candidata à presidência Sofia Manzano do Partido Comunista Brasileiro",
-          "thumbnails": "https://i.ytimg.com/vi/2NihkQSI7DI/sddefault.jpg",
-          "playlistId": "UUag6nJdH24c2LHRvebYJwRQ",
-          "videoId": "2NihkQSI7DI"
-        },
-        {
-          "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLk5ZdzVpX2loOXYw",
-          "publishedAt": "2022-09-01T02:24:19Z",
-          "title": "Analisando o primeiro debate eleitoral",
-          "description": "Zamiliano, Larissa Coutinho, Diego Miranda e Julia Rocha conversam sobre o debate do dia 28 dos candidatos a presidência na Band.",
-          "thumbnails": "https://i.ytimg.com/vi/NYw5i_ih9v0/sddefault.jpg",
-          "playlistId": "UUag6nJdH24c2LHRvebYJwRQ",
-          "videoId": "NYw5i_ih9v0"
-        },
-        {
-          "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLnpzcHlJVHZ2X1Nr",
-          "publishedAt": "2021-12-28T01:02:10Z",
-          "title": "Live de Fim de Ano",
-          "description": "Zamiliano, Larissa Coutinho, Diego Miranda, Jones Manoel e João carvalho vieram fechar o ano com vocês.",
-          "thumbnails": "https://i.ytimg.com/vi/zspyITvv_Sk/sddefault.jpg",
-          "playlistId": "UUag6nJdH24c2LHRvebYJwRQ",
-          "videoId": "zspyITvv_Sk"
-        }
-      ]
-    },
-    {
-      "id": "UCETjsiWHrAHyADOih7ACwHw",
-      "uploads": "UUETjsiWHrAHyADOih7ACwHw",
-      "channel": {
-        "title": "luideverso",
-        "description": "Cortes do luideverso: os melhores momentos da twitch.com/luidematos",
-        "url": "https://yt3.ggpht.com/ytc/AMLnZu-2Nyc3shqcC0AMaUBHSQMGA2blrzT4JgN_xlpD=s240-c-k-c0x00ffffff-no-rj",
-        "unsubscribedTrailer": "O5GM7Gw6anw"
+      {
+        "title": "Como crescer no TikTok (e fazer o socialismo crescer junto)",
+        "url": "https://www.youtube.com/watch?v=bQ2419sZ7bw",
+        "thumb": "https://i.ytimg.com/vi/bQ2419sZ7bw/hqdefault.jpg",
+        "publishedAt": "2022-06-19T02:00:17Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
       },
-      "bannerExternalUrl": "https://yt3.ggpht.com/EZip8LhHAmBxOwnY_x6_zqzsuN_JKJN2bmtDdoCZod2FX8QIBN06sJg8aTDJ1D4Y7FcHHJJ5",
-      "items": [
-        {
-          "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3Lklwa3pkcHVXQTE0",
-          "publishedAt": "2022-11-08T14:45:00Z",
-          "title": "OROCINHO REAGE A COMPILADO DE REDCAST | Cortes luideverso",
-          "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@orochidois",
-          "thumbnails": "https://i.ytimg.com/vi/IpkzdpuWA14/sddefault.jpg",
-          "playlistId": "UUETjsiWHrAHyADOih7ACwHw",
-          "videoId": "IpkzdpuWA14"
-        },
-        {
-          "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LmRpeS10b0dmX2NF",
-          "publishedAt": "2022-11-07T19:54:20Z",
-          "title": "MONARK AINDA TEM ESPERANÇA DE PROVAREM A \"FRAUDE\" | Cortes luideverso",
-          "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@Monark Talks - Cortes [Oficial]​",
-          "thumbnails": "https://i.ytimg.com/vi/diy-toGf_cE/sddefault.jpg",
-          "playlistId": "UUETjsiWHrAHyADOih7ACwHw",
-          "videoId": "diy-toGf_cE"
-        },
-        {
-          "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LmczMVVSLTBXdzhR",
-          "publishedAt": "2022-11-07T18:30:10Z",
-          "title": "LIBERAIS QUESTIONAM VIAGEM DE MUNDO SEM FIM EM CUBA | Cortes luideverso",
-          "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\nVídeo incrível do @Mundo Sem Fim.",
-          "thumbnails": "https://i.ytimg.com/vi/g31UR-0Ww8Q/sddefault.jpg",
-          "playlistId": "UUETjsiWHrAHyADOih7ACwHw",
-          "videoId": "g31UR-0Ww8Q"
-        },
-        {
-          "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LjFhdHYtb3ZqcDFr",
-          "publishedAt": "2022-11-07T14:45:00Z",
-          "title": "ECONOMISTA CHOCA ANCAPS: IMPOSTO NÃO É ROUBO | Cortes luideverso",
-          "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@André Roncaglia no @À Deriva [OFICIAL]",
-          "thumbnails": "https://i.ytimg.com/vi/1atv-ovjp1k/sddefault.jpg",
-          "playlistId": "UUETjsiWHrAHyADOih7ACwHw",
-          "videoId": "1atv-ovjp1k"
-        },
-        {
-          "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LndHSWh5OEJETUdB",
-          "publishedAt": "2022-11-06T18:43:42Z",
-          "title": "PAULO KOGOS AINDA ESTÁ NA RUA PEDINDO GOLPE KKKK | Cortes luideverso",
-          "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide",
-          "thumbnails": "https://i.ytimg.com/vi/wGIhy8BDMGA/sddefault.jpg",
-          "playlistId": "UUETjsiWHrAHyADOih7ACwHw",
-          "videoId": "wGIhy8BDMGA"
-        }
-      ]
-    },
-    {
-      "id": "UCcoxGCRGcq6FhHbEvr2y9Vg",
-      "uploads": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-      "channel": {
-        "title": "História Pública",
-        "description": "Um canal dedicado à informação, ao debate e à análise política feito por historiadores marxistas.",
-        "url": "https://yt3.ggpht.com/lWFpvf26Be7TGgOoMSRdkMnuYj5nXquwKQxWREo0GByytxgO5AMV6AcVlzWI8wlxX2Pdr-vp=s240-c-k-c0x00ffffff-no-rj"
+      {
+        "title": "Por que odiamos? Ep. 2: Fernando Collor de Mello",
+        "url": "https://www.youtube.com/watch?v=_XHmDtAKEqU",
+        "thumb": "https://i.ytimg.com/vi/_XHmDtAKEqU/hqdefault.jpg",
+        "publishedAt": "2022-05-16T14:20:02Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
       },
-      "bannerExternalUrl": "https://yt3.ggpht.com/Ox_5Mimhh5Hccatf9ORjm9MamsEJ5c3NVZvIpjfDSxjaUaUN70WkPHocEDR8AikPyPja_MOJ6O4",
-      "items": [
-        {
-          "id": "VVVjb3hHQ1JHY3E2RmhIYkV2cjJ5OVZnLmNnNXdpbkdweDgw",
-          "publishedAt": "2022-07-28T16:04:06Z",
-          "title": "Comunismo: princípios básicos e guia de leitura",
-          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica\nE-mail para contato: ianfneves@gmail.com\n\nPara contribuir com o canal:\n- https://apoia.se/historiapublica\n- https://app.picpay.com/user/historia.publica\n- Chave Pix: ianfneves@gmail.com\n\n00:00 Introdução\n1:28 O que é comunismo?\n6:40 Materialismo Histórico Dialético\n19:35 Crítica da Economia Política\n29:38 Valor\n34:20 Mais-valia\n39:33 Socialismo Científico\n44:58 Ditadura do Proletariado\n50:46 Partido leninista\n58:32 Guia de leitura\n\nBibliografia:\n\nAqui nós temos alguns dos textos em audiolivro com introdução e leitura feita por nós da Soberana: https://www.marxists.org/portugues/tematica/audiolivros.htm\n\nGRESPAN, Jorge. Marx: uma introdução. Boitempo, 2021. 104p.\nhttps://www.boitempoeditorial.com.br/produto/marx-uma-introducao-1070 \n\nLENIN, Vladimir Ilitch. As Três Fontes e as Três partes Constitutivas do Marxismo. 1913\nhttps://www.marxists.org/portugues/lenin/1913/03/tresfont.htm\n\nENGELS, Friederich. Princípios Básicos do Comunismo. 1847\nhttps://www.marxists.org/portugues/marx/1847/11/principios.htm\n\nENGELS, Friederich; MARX, Karl. Manifesto do Partido Comunista. 1848\nhttps://www.marxists.org/portugues/marx/1848/ManifestoDoPartidoComunista/index.htm\n\nENGELS, Friederich. Do Socialismo Utópico ao Socialismo Científico. 1880\nhttps://www.marxists.org/portugues/marx/1880/socialismo/index.htm\n\nMARX, Karl. Salário, Preço e Lucro. 1865\nhttps://www.marxists.org/portugues/marx/1865/salario/index.htm\n\nENGELS, Friederich; MARX, Karl. A Ideologia Alemã. 1846\nhttps://www.marxists.org/portugues/marx/1845/ideologia-alema-oe/index.htm\n\nMARX, Karl. Crítica do Programa de Gotha. 1875\nhttps://www.marxists.org/portugues/marx/1875/gotha/index.htm\n\nLENIN, Vladimir Ilitch. Que fazer?. 1902\nhttps://www.marxists.org/portugues/lenin/1902/quefazer/index.htm\n\nLENIN, Vladimir Ilitch. O Estado e a Revolução. 1918\nhttps://www.marxists.org/portugues/lenin/1917/08/estadoerevolucao/index.htm\n\nLENIN, Vladimir Ilitch. Imperialismo, Fase Superior do Capitalismo. 1916\nhttps://www.marxists.org/portugues/lenin/1916/imperialismo/index.htm\n\nBibliografia adicional:\n\nMARX, Karl. O Capital, volume 1. 1867\nhttps://www.marxists.org/portugues/marx/1867/ocapital-v1/index.htm\n\nOSTROVITIANOV, Konstantín Vasilievich. Manual de Economia Política. 1959\nhttps://www.marxists.org/portugues/ostrovitianov/1959/manual/index.htm",
-          "thumbnails": "https://i.ytimg.com/vi/cg5winGpx80/sddefault.jpg",
-          "playlistId": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-          "videoId": "cg5winGpx80"
-        },
-        {
-          "id": "VVVjb3hHQ1JHY3E2RmhIYkV2cjJ5OVZnLjNxTm1JWGFGU3I4",
-          "publishedAt": "2022-07-04T20:07:33Z",
-          "title": "Integralismo, estudo de caso sobre o fenômeno fascista",
-          "description": "Livro \"Páginas Verdes de uma Imprensa Marrom\" de Vinicius Ramos: https://shopee.com.br/P%C3%A1ginas-Verdes-De-Uma-Imprensa-Marrom-Vin%C3%ADcius-da-Silva-Ramos-i.318122977.11530212825?xptdk=2bf7333b-15ec-46b9-979a-ab86cb815ddb\n\nSiga o História Pública nas redes: https://linktr.ee/historiapublica\nE-mail para contato: ianfneves@gmail.com\n\nPara contribuir com o canal:\n- https://apoia.se/historiapublica\n- https://app.picpay.com/user/historia.publica\n- Chave Pix: 65fedb25-194b-4a65-b14f-62947d686c6b\n\n00:00 Introdução\n4:05 Plínio Salgado\n11:00 Os três líderes\n14:21 O Integralismo cresce\n17:13 Protocolos e Rituais\n19:04 Membros famosos\n20:44 Revoada dos Galinhas Verdes\n24:03 Estado Novo\n27:07 Partido de Representação Popular\n30:23 Pós Plínio Salgado\n32:58 Integralistas Contemporâneos\n35:21 O conteúdo fascista\n41:31 Integralismo e Nazismo\n43:55 Anticomunismo\n47:51 Antiliberalismo\n54:50 Antissemitismo\n57:45 Supressão das diferenças\n1:00:10 Chauvinismo\n1:03:11 Idealização do passado\n1:11:46 Culto à personalidade\n1:12:42 Fundamentalismo cristão\n1:14:07 Patriarcalismo e controle sexual feminino\n1:17:47 Conclusão\n\nBibliografia:\n\nBARBOSA, Jefferson Rodrigues. Chauvinismo e extrema direita: crítica aos herdeiros do sigma. Editora Unesp, 2015. 526 p.\n\nBARROSO, Gustavo. Brasil, colônia de banqueiros (História dos empréstimos de 1824 a 1934). Rio de Janeiro, 1936. 198 p.\n\nDEGRAS, Jane. The Communist International (1919-1943 Documents). Volume III: 1929-1943, 1964. 499 p.\n\nFIORUCCI, Rodolfo. A Trajetória da Revista Anauê! (1935-1937): O Jornalismo Partidário e Ilustrado da Ação Integralista Brasileira -  A “Netinha” que não Cresceu. Tese de Doutorado, Universidade Federal de Goiás, 2014. 295 p.\n\nFIORUCCI, Rodolfo. O Comunismo nas Páginas da Revista Integralista Anauê! (1935-37): O Inimigo (Inter)nacional. Perseu, nº 11, ano 7, 2016. Pp. 13-31\n\nGONÇALVES, Leandro Pereira; NETO, Odilon Caldeira. O Fascismo em Camisas Verdes: do integralismo ao neointegralismo. Rio de Janeiro: FGV Editora, 2020. 231 p.\n\nOLIVEIRA, Rodrigo Santos de. Imprensa Integralista, Imprensa Militante (1932-1937). Tese de Doutorado, Pontifícia Universidade Católica do Rio Grande do Sul, Faculdade de Filosofia e Ciências Humanas, 2009. 388p.\n\nPACHOALETO, Murilo Antonio. As percepções acerca do Nazismo presentes nas páginas do jornal integralista A Offensiva. Revista Espaço Acadêmico, Nº 120, maio de 2011. 8 p.\n\nRAMOS, Vinícius da Silva. Formas distintas para públicos distintos: o discurso integralista de acordo com seu público-alvo. Tese de Doutorado, Universidade do Estado do Rio de Janeiro, Centro de Educação e Humanidades, Faculdade de Formação de Professores, 2020. 172 p.\n\nRAMOS, Vinícius da Silva. Páginas Verdes de uma Imprensa Marrom. Ciências Revolucionárias, 2020. 139 p.\n\nSALGADO, Plínio. A Mulher no Século XX. Guanumby, 1949. 151 p.\n\nSALGADO, Plínio. Doutrina e Tática Comunistas (Noções Elementares). Livraria Clássica Brasileira, Rio de Janeiro, 1957. 151 p.\n\nSALGADO, Plínio. Manifesto de 7 de Outubro. Nova Offensiva, 2021, orig. 1932. 32 p.\n\nSALGADO, Plínio. O que é Integralismo. Editora das Américas, 1933. 65 p.\n\nSILVA, Rogério Souza. A política como espetáculo: a reinvenção da história brasileira e a consolidação dos discursos e das imagens integralistas na revista Anauê!. Revista Brasileira de História. São Paulo, v. 25, nº 50, 2055. Pp. 61-95\n\nSIMÕES, Renata Duarte. O Jornal “A Offensiva” e a Mulher Integralista. Anais do XVI Encontro Regional de História da Anpuh-Rio: Saberes e Práticas Científicas, 24 de julho - 1º de agosto, 2014. 15 p.",
-          "thumbnails": "https://i.ytimg.com/vi/3qNmIXaFSr8/sddefault.jpg",
-          "playlistId": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-          "videoId": "3qNmIXaFSr8"
-        },
-        {
-          "id": "VVVjb3hHQ1JHY3E2RmhIYkV2cjJ5OVZnLmJRMjQxOXNaN2J3",
-          "publishedAt": "2022-06-19T02:00:17Z",
-          "title": "Como crescer no TikTok (e fazer o socialismo crescer junto)",
-          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica\nE-mail para contato: ianfneves@gmail.com\n\nPara contribuir com o canal:\n- https://apoia.se/historiapublica\n- https://app.picpay.com/user/historia.publica\n- Chave Pix: 65fedb25-194b-4a65-b14f-62947d686c6b",
-          "thumbnails": "https://i.ytimg.com/vi/bQ2419sZ7bw/sddefault.jpg",
-          "playlistId": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-          "videoId": "bQ2419sZ7bw"
-        },
-        {
-          "id": "VVVjb3hHQ1JHY3E2RmhIYkV2cjJ5OVZnLl9YSG1EdEFLRXFV",
-          "publishedAt": "2022-05-16T14:20:02Z",
-          "title": "Por que odiamos? Ep. 2: Fernando Collor de Mello",
-          "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica\nE-mail para contato: ianfneves@gmail.com\n\nPara contribuir com o canal:\n- https://apoia.se/historiapublica\n- https://app.picpay.com/user/historia.publica\n- Chave Pix: 65fedb25-194b-4a65-b14f-62947d686c6b\n\n00:00 Introdução\n4:10 Antecedentes\n11:38 Início de carreira\n18:28 Contexto histórico\n25:31 A Revista Veja\n37:20 A Televisão\n48:34 Campanha Eleitoral\n58:00 A Manipulação das Eleições\n1:05:31 Discurso de Posse\n1:09:06 Confisco: o que foi\n1:20:16 Confisco: razões\n1:23:40 Confisco: consequências\n1:31:41 Mitos sobre o Plano Collor\n1:41:55 Interlúdio\n1:42:54 Neoliberalismo\n1:56:48 Impeachment: o que foi\n2:09:33 Impeachment: causas\n2:15:08 Collor hoje\n\nBibliografia:\nALMEIDA, Monica Piccolo. Reformas Neoliberais no Brasil: A Privatização nos Governos Fernando Collor e Fernando Henrique Cardoso. Universidade Federal Fluminense, Instituto de Ciências Humanas e Filosofia. Niterói, 2010. 427p.\n\nANDRADA, Alexandre F. S.. Quem, afinal, apoiou o Plano Collor? Revista de Economia Política, vol. 38, nº 4 (153), outubro-dezembro, 2018. Pp. 781-799\n\nANTUNES, Ricardo. A desertificação neoliberal do Brasil: Collor, FHC e Lula. Autores Associados, 2004. 170 p.\n\nBIAR, Liana de Andrade; PINHEIRO, Diogo. “Com tanta eloquência, com tanta mentira”: Repetição e recategorização em discursos de Fernando Collor. Alfa, São Paulo, v. 62, nº 3, 2018. Pp. 469-485\n\nBRANDÃO, Leonardo; MENGARDA, Alan Evaristo. Fernando Collor: O Candidato Esportista e as Eleições de 1989. Recorde, Rio de Janeiro, v. 8, nº 1, jan-jun 2015. Pp. 1-16\n\nCARVALHO, Carlos Eduardo. As origens e a gênese do Plano Collor. Nova Economia. Belo Horizonte, 16 (1), janeiro-abril de 2006. Pp. 101-134\n\nCASARÕES, Guilherme Stolle Paixão e; SALLUM JR., Brasilio. O Impeachment do Presidente Collor: A Literatura e o Processo. Lua Nova, São Paulo, 82, 2011. Pp. 163-200\n\nCONTI, Mário Sérgio. Notícias do Planalto: A Imprensa e o poder nos anos Collor. Companhia Das Letras, 1999. 560 p.\n\nDA SILVA, Carla Luciana Souza. Veja: O indispensável partido neoliberal (1989 a 202). Centro de Estudos Gerais Instituto de Ciência Humanas e Filosofia, 2005. 658 p.\n\nIBARGOYEN, Loiret Chiappa. O Fenômeno Collor: Quando a Mídia Transforma um “Caçador” em Cassado (1988-1992). Porto Alegre, 2019. 67p.\n\nMACIEL, David. O Governo Collor e o Neoliberalismo no Brasil (1990-1992). Revista UFG, dezembro de 2011, ano XIII nº 11. Pp. 98-108\n\nMARTUSCELLI, Danilo Enrico. O PT e o impeachment de Collor. OPINIÃO PÚBLICA, Campinas, vol. 16, nº 2, Novembro, 2010. Pp. 542-568\n\nNASCIMENTO, Rangel Silvando da Silva do. A Política Econômica Externa do Governo Collor: Liberalização Comercial e Financeira. 20 p.\n\nPRADO, José Luiz Aidar; RAMALDES, Dalva. O Corpo do Poder: Estudo semiótico da figura de Lula nas campanhas eleitorais presidenciais desde 1989 nas revistas Veja e Istoé. Brazilian Journalism Research, vol. 1, nº 1, semester 2, 2008. Pp. 167-189\n\nRODRIGUES, Carlos Henrique Lopes; JUNGERFELD, Vanessa Follmann. Desnacionalização e financeirização: um estudo sobre as privatizações brasileiras (de Collor ao primeiro governo FHC). Economia e Sociedade, Campinas, v. 28, n. 2 (66), p. 393-420, maio-agosto 2019. Pp. 394-420",
-          "thumbnails": "https://i.ytimg.com/vi/_XHmDtAKEqU/sddefault.jpg",
-          "playlistId": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-          "videoId": "_XHmDtAKEqU"
-        },
-        {
-          "id": "VVVjb3hHQ1JHY3E2RmhIYkV2cjJ5OVZnLnh5QVhFdkZET0hj",
-          "publishedAt": "2022-04-01T20:00:37Z",
-          "title": "(Áudio) O que é Maoísmo? Um panorama histórico e teórico (part. João Pedro Fragoso)",
-          "description": "Lançamento do João Pedro Fragoso \"Paz, Pão e Terra: a história do país dos sovietes\" - https://www.cienciasrevolucionarias.com/pagina-de-produto/jo%C3%A3o-pedro-fragoso-paz-p%C3%A3o-e-terra-a-hist%C3%B3ria-do-pa%C3%ADs-dos-sovietes \n\nSiga o História Pública nas redes: https://linktr.ee/historiapublica\nE-mail para contato: ianfneves@gmail.com\n\n00:00 Introdução\n1:37 O surgimento do \"Pensamento Mao Zedong\"\n12:29 A consolidação do \"Marxismo-Leninismo-Maoísmo\"\n24:39 O Maoísmo no Movimento Comunista Internacional\n43:33 O Maoísmo no Brasil\n59:18 As 7 contribuições do Maoísmo\n1:00:13 1 - Os Três Instrumentos da Revolução\n1:02:55 2 - Linha de Massas\n1:05:57 3 - Nova Democracia e Capitalismo Burocrático\n1:18:43 4 - Guerra Popular Prolongada\n1:27:30 5 - Teoria da Contradição\n1:31:51 6 - Revolução Cultural\n1:48:27 7 - Luta de Duas Linhas Dentro do Partido\n1:53:52 Como os Maoístas enxergam a China contemporânea\n\nBibliografia:\n58% in AP say Naxalism is good, finds TOI poll. The Times of India, India, 28 set. 2010\nA China imperialista: alguns dados sobre seus monopólios, sua exportação de capital e suas iniciativas de repartição do mundo. ln: Coletivo Cem Flores. [S.l.]. 9 out. 2020\nA MISTIFICAÇÃO burguesa do campo e a atualidade da revolução agrária. A Nova Democracia, Rio de Janeiro, n. 1, 14 ago. 2002\nBETTELHEIM, Charles. Cultural Revolution and Industrial Organization in China: Changes in Management and the Division of Labor. Londres: Monthly Review Press, 1974\nBOND, Rosana. Peru: do império dos incas ao império da cocaína. 1 ed. Rio de Janeiro: COEDITA - Cooperativa de Trabalhadores em Produção Cultural e Editorial, 2004\nBOND, Rosana. Sendero Luminoso: Fogo nos Andes. 1 ed. Goiânia: Ruptura, 1991\nBORJA, Luis Arce (org.). Guerra Popular En El Peru: Pensamiento Gonzalo. Bruxelas: El Diario, 1989. v.1\nBORJA, Luis Arce. Memoria de una guerra: Perú 1980-2000. Bruxelas: El Diario, 2009\nDebate sobre a Restauração Capitalista na China. ln: Coletivo Cem Flores. Cem Flores. [S.l.]. 11 out. 2019\nDESENVOLVIMENTO capitalista e capitalismo burocrático. A Nova Democracia, Rio de Janeiro, n. 1, 14 ago. 2002\nGAO, Mobo. The Battle for China’s Past: Mao and the Cultural Revolution. Londres: Pluto Press, 2008\nGUERRAS Populares ao redor do mundo: Comunistas apontam o caminho aos povos do mundo. A Nova Democracia, Rio de Janeiro, n. 198, 14 out. 2017\nGUZMAN, Abimael. A problemática nacional. ln: Servir ao Povo. Brasil, 10 out. 2021\nHAN, Dongping. The Unknown Cultural Revolution: Life and Change in a Chinese Village. USA: Monthly Review Press, 2008\nHOLDEN, William. The Never Ending War in the Wounded Land: The New People’s Army on Samar. Journal of Geography and Geology, [s. l.], v. 5, n. 4, 2013. 1916-9787\nLENIN, Vladimir Ilitch. O Imperialismo, Fase Superior do Capitalismo. Lisboa: Progresso, 1984\nLENIN, Vladimir Ilitch. The Development of Capitalism in Russia: The Process of the Formation of a Home Market for Large-Scale Industry. 4. ed. Moscou: Progress Publishers, v. 3, 1964\nLinha do blog. ln: Servir ao Povo. Brasil, 1 abr. 2020\nMaoist Guerrillas from Turkey: Brief Review of the Armament and Strategy of TKP/ML TİKKO Fighters. ln: War Noir. [S.l.]. 8 abr. 2020\nMAZUMDAR, Charu. Sobre a Guerra Popular na Índia. 2. ed. Brasil: Nova Cultura, 2018\nMOUFAWAD-PAUL, J. Continuity and Rupture: Philosophy in the Maoist Terrain. 1 ed. Canada: Zero Books, 2016\nMOUFAWAD-PAUL, J. Critique of Maoist Reason. 1 ed. Canada: Foreign Languages Press, 2020\nMOVIMENTO REVOLUCIONÁRIO INTERNACIONALISTA. Viva o Marxismo-Leninismo-Maoismo!. A World to Win, [s. l.], 26 nov. 1993 \nMURALI, K. “Ajith”. O Partido Maoista. ln: Luta Contínua. [S.l.]. 20 mai. 2021. \nNUCLEO DE ESTUDOS DO MARXISMO-LENINISMO-MAOISMO. A Dupla Negação da TMD: nem Marxismo, nem Leninismo. 1 ed. Brasil: Grupo de Estudos Ao Povo Brasileiro - GEAPB, 2021\nNUCLEO DE ESTUDOS DO MARXISMO-LENINISMO-MAOISMO. Problemas da História do Partido Comunista do Brasil. 1 ed. Brasil: Seara Vermelha, 2016\nO CAMINHO da Guerra Popular no Peru após a captura do CC. A Nova Democracia, Rio de Janeiro, n. 244, 1 out. 2021\nPARTIDO COMUNISTA DA ÍNDIA (MAOISTA). Hail the Formation of Communist Party of India (Maoist). Kolkata, Índia: PCI(Maoista), 2004\nPARTIDO COMUNISTA DAS FILIPINAS. Constitution and Program. Filipinas: PCF, 2018\nROBERTS, Godfree. How did Mao manage to kill ~78 million people?. ln: Quora. [S.l.]. 25 jun. 2017\nROY, Arundhati. Walking with the comrades. 2. ed. India: Penguin Books, 2014\nSISON, Jose Ma. Grandes conquistas do Partido Comunista das Filipinas em 50 anos de luta revolucionária. ln: União Reconstrução Comunista. Nova Cultura. Brasil, 23 dez. 2018\nZEDONG, Mao. A Nova Democracia na China. China: Revista Cultura Chinesa, 1940\nZEDONG, Mao. A Propósito dos Métodos de Direcção. Pequim: Edições do Povo, 1952\nZEDONG, Mao. Cinco Teses Filosóficas. 2. ed. Brasil: Nova Cultura, 2018. \nZEDONG, Mao. Sobre a Guerra Prolongada. Pequim: Edições do Povo, 1952",
-          "thumbnails": "https://i.ytimg.com/vi/xyAXEvFDOHc/sddefault.jpg",
-          "playlistId": "UUcoxGCRGcq6FhHbEvr2y9Vg",
-          "videoId": "xyAXEvFDOHc"
-        }
-      ]
-    },
-    {
-      "id": "UC7-Pp09PJX_SYP9oyMzUAtg",
-      "uploads": "UU7-Pp09PJX_SYP9oyMzUAtg",
-      "channel": {
-        "title": "João Carvalho",
-        "description": "Historiador e militante comunista. MLM. \nYoutuber e Streamer no /assimdisseojoao.\nRebelar-se é justo!\n\nConheça também o canal de cortes!\nyoutube.com/CortesdoJoao\n",
-        "url": "https://yt3.ggpht.com/BKEaytxQ---YKwmiZlY0ao2vqcPkQ1q5PsLJYCSrm0wiuUtlulXwG9PURyQOQ-WmJQ5qq-IYfA=s240-c-k-c0x00ffffff-no-rj"
+      {
+        "title": "(Áudio) O que é Maoísmo? Um panorama histórico e teórico (part. João Pedro Fragoso)",
+        "url": "https://www.youtube.com/watch?v=xyAXEvFDOHc",
+        "thumb": "https://i.ytimg.com/vi/xyAXEvFDOHc/hqdefault.jpg",
+        "publishedAt": "2022-04-01T20:00:37Z",
+        "description": "Lançamento do João Pedro Fragoso \"Paz, Pão e Terra: a história do país dos sovietes\" ..."
       },
-      "bannerExternalUrl": "https://yt3.ggpht.com/L_IsR7ryOWfPfMMeYrFyh-05bk8lrC9CLGMlw0E_TsFZvecjRag3wyiHnUDMgPlHamcKPnrR"
-    },
-    {
-      "id": "UCC27hiJO_njp6v81Wd0b96g",
-      "uploads": "UUC27hiJO_njp6v81Wd0b96g",
-      "channel": {
-        "title": "Comuninja",
-        "description": "Saudações, pessoal!\n\nMeu nome é Guilherme, sou jornalista e produtor de conteúdo. Este canal é minha contribuição para o debate acerca de jornalismo e comunicação social, assim como divulgação de outros conteúdos como audiolivros de textos marxistas.\n\nO nome \"comuninja\" é uma referência a uma personagem do filme português de sátira política \"Capitão Falcão\" (2015).\n\nCaso gostem do conteúdo, considerem ajudar pelo site https://apoia.se/comuninja#! ou pelo pix: senwyr@gmail.com\n\n\n",
-        "url": "https://yt3.ggpht.com/eKG_JYq7_N2QLWB02XOHvIkUJNndATZ5fywoRzPAG0eg99CvXAu7YB1SBIp0CMj60C22Flw5Ew=s240-c-k-c0x00ffffff-no-rj"
+      {
+        "title": "Holodomor, o mito da \"fome-genocídio\" na Ucrânia (1932-1933)",
+        "url": "https://www.youtube.com/watch?v=PY6aNPXzQ3I",
+        "thumb": "https://i.ytimg.com/vi/PY6aNPXzQ3I/hqdefault.jpg",
+        "publishTime": "2022-03-16T09:07:13Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+      },
+      {
+        "title": "Ucrânia: O que foi o \"Euromaidan\" (2013-2014)?",
+        "url": "https://www.youtube.com/watch?v=hA5at-tlWAY",
+        "thumb": "https://i.ytimg.com/vi/hA5at-tlWAY/hqdefault.jpg",
+        "publishTime": "2022-02-28T03:16:31Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+      },
+      {
+        "title": "Think Tanks: Conceito, História e Exemplos",
+        "url": "https://www.youtube.com/watch?v=so-myrwx3rw",
+        "thumb":  "https://i.ytimg.com/vi/so-myrwx3rw/hqdefault.jpg",
+        "publishedAt": "2022-02-14T06:01:41Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+      },
+      {
+        "title": "Por que odiamos? Ep. 1: Margaret Thatcher",
+        "url": "https://www.youtube.com/watch?v=G4QZFJVToNg",
+        "thumb": "https://i.ytimg.com/vi/G4QZFJVToNg/hqdefault.jpg",
+        "publishedAt": "2022-01-29T06:56:02Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
+      },
+      {
+        "title": "Laos Parte 1: Criando um Estado-nação",
+        "url": "https://www.youtube.com/watch?v=kELGgaTx84s",
+        "thumb": "https://i.ytimg.com/vi/kELGgaTx84s/hqdefault.jpg",
+        "publishedAt": "2022-01-09T00:56:15Z",
+        "description": "Siga o História Pública nas redes: https://linktr.ee/historiapublica E-mail para contato: ianfneves@gmail.com Para contribuir com o ..."
       }
+    ],
+    "João Carvalho": [
+    {
+      "title": "Historiador Reage a Lacaio Bolsonarista e perde tudo! - Um recado com mil mentiras | João Carvalho",
+      "url": "https://www.youtube.com/watch?v=iEpqvHMiDvU",
+      "thumb": "https://i.ytimg.com/vi/iEpqvHMiDvU/hqdefault_live.jpg",
+      "publishedAt": "2022-11-08T23:40:11Z",
+      "description": "Olá jovens! Em \"Acredite nos seus sonhos: react a assaltos\" episódio 12, o professor João Carvalho reage à sequência de ...",
+      "profile": "https://yt3.ggpht.com/BKEaytxQ---YKwmiZlY0ao2vqcPkQ1q5PsLJYCSrm0wiuUtlulXwG9PURyQOQ-WmJQ5qq-IYfA=s800-c-k-c0x00ffffff-no-rj"
     },
     {
-      "id": "UCAMExYqcweM7PUebKfmLdFA",
-      "uploads": "UUAMExYqcweM7PUebKfmLdFA",
-      "channel": {
-        "title": "Cortes do História Pública",
-        "description": "Canal de cortes oficial do História Pública.",
-        "url": "https://yt3.ggpht.com/NUvpgRFMFx4tE-jjdWMelm8jCtt78G21R-1KQOmOh7IedLd_MQ6NVcTBGJCTmYZx17fmkaX7=s240-c-k-c0x00ffffff-no-rj"
-      },
-      "image": {
-        "bannerExternalUrl": "https://yt3.ggpht.com/X6lksgJIiTSAT5pDA6ElSHwhctMWOnE1FqeDdAVzmFxnts3sjjisOkiGlyoUEJ7ZY1r1h6vh9A"
-      }
+      "title": "Sorteio dos Broder e trocando ideias | João Carvalho",
+      "url": "https://www.youtube.com/watch?v=3Yy-d_CIFqU",
+      "thumb": "https://i.ytimg.com/vi/3Yy-d_CIFqU/hqdefault.jpg",
+      "publishedAt": "2022-11-08T02:39:57Z",
+      "description": "Sorteio dos livros do mês de Outubro e conversa com a galera. ---------------------------------------------------------------------------- ASSINE ..."
     },
     {
-      "id": "UCawkKjxvsJ1oShKVK4xxfJQ",
-      "uploads": "UUawkKjxvsJ1oShKVK4xxfJQ",
-      "channel": {
-        "title": "Cortes do João Carvalho [OFICIAL]",
-        "description": "Canal oficial de cortes do Professor João Carvalho!\nConheça e inscreva-se no canal principal em youtube.com/assimdisseojoao \nSiga o João em todas as redes procurando pela @ \"assimdisseojoao\"\n\nContribua com o tio e sua produção de conteúdo em apoia.se/assimdisseojoao ou padrim.com.br/assimdisseojoao\n\nArtes gráficas e capas (vitrines/thumbs) por Manoela Bertelli \"Nunih\" - conheça o trabalho dela em instagram.com/nunihsart tiktok.com/@nunihsart e nunih.com\n\nEdições, vinheta, pós-produção e SEO por Raphael Corrêa - conheça o trabalho em instagram.com/fotosdorapha ou youtube.com/quasesobretudo e nas outras redes via raphaelcorrea.net\n\nReacts e exibições permitidos em \"lives\" em quaisquer redes, desde que informado o link do canal.\nReacts para novos vídeos (obras derivadas) no YouTube e outras plataformas permitidos desde que informado link do canal e link direto ao vídeo em questão.\n[sim, é um canal comunista, ninguém vai processar ninguém por bom uso do material, é um pedido de bom senso]\n",
-        "url": "https://yt3.ggpht.com/PaaVWT4-t_RVwEiQkHubw5g4SGFtFGHl74H3DpvMFBv7Xo1AdQASTyQihwDAdkAYy4N32Ig0Tw=s240-c-k-c0x00ffffff-no-rj",
-        "unsubscribedTrailer": "e8qV32qmkFo"
-      },
-      "image": {
-        "bannerExternalUrl": "https://yt3.ggpht.com/tm_H51MFvvG1xnxtXb2kVz2oaDkQ6ke837EAyhofIkw2EHK5sdf4IB9GL1OxLBkXGe7_-g-L"
-      }
+      "title": "Pororoca de Chorume #07 com Ian Neves (História Pública) e João Carvalho",
+      "url": "https://www.youtube.com/watch?v=y8vupB4ndZU",
+      "thumb": "https://i.ytimg.com/vi/y8vupB4ndZU/hqdefault.jpg",
+      "publishedAt": "2022-11-06T00:00:10Z",
+      "description": "Olá jovens! Hoje trazemos mais um episódio desta deliciosa parceria entre João Carvalho e Ian Neves, do História Pública, com ..."
+    },
+    {
+      "title": "A Psicologia do Fascismo ft. Doutor de Mente podcast - Anne e Marcelo Rigoli | João Carvalho",
+      "url": "https://www.youtube.com/watch?v=9QFnYvojhm0",
+      "thumb": "https://i.ytimg.com/vi/9QFnYvojhm0/hqdefault.jpg",
+      "publishedAt": "2022-11-05T00:30:11Z",
+      "description": "Olá, jovens! Hoje trazemos um episódio do podcast Doutor de Mente, onde o tio João Carvalho debate e troca várias ideias sobre ..."
+    },
+    {
+      "title": "Peru - Parte 2 - O Mundo em Vermelho #10 com João Pitillo (Guerra Patriótica) e João Carvalho",
+      "url": "https://www.youtube.com/watch?v=-08QmcsIjLg",
+      "thumb": "https://i.ytimg.com/vi/-08QmcsIjLg/hqdefault.jpg",
+      "publishedAt": "2022-11-04T00:00:10Z",
+      "description": "Olá jovens! Voltamos com nosso querido O Mundo em Vermelho, com João Claudio Pitillo e João Carvalho, hoje na continuação ..."
+    },
+    {
+      "title": "Sommelier de Liberal #21 com Laura Sabino e João Carvalho - O Retorno!",
+      "url": "https://www.youtube.com/watch?v=3XOAHAZGr6k",
+      "thumb": "https://i.ytimg.com/vi/3XOAHAZGr6k/hqdefault.jpg",
+      "publishedAt": "2022-11-02T00:30:10Z",
+      "description": "Hoje trazemos mais um episódio com o tio João Carvalho e a também historiadora Laura Sabino no quadro recorrente na ..."
+    },
+    {
+      "title": "João Carvalho reage a Jones Manoel debatendo com um bolsonarista - Acredite nos seus sonhos #11",
+      "url": "https://www.youtube.com/watch?v=s_jRmYPouX0",
+      "thumb": "https://i.ytimg.com/vi/s_jRmYPouX0/hqdefault.jpg",
+      "publishedAt": "2022-10-30T00:00:08Z",
+      "description": "Olá jovens! Mais um episódio de \"Acredite nos seus sonhos: react a assaltos\", e no programa de hoje vamos ver como foi o ..."
+    },
+    {
+      "title": "João Carvalho reage a Lula no DL Show com Cauê Moura e LoadComics - Acredite nos seus sonhos #10",
+      "url": "https://www.youtube.com/watch?v=-l_s_NGy0qE",
+      "thumb": "https://i.ytimg.com/vi/-l_s_NGy0qE/hqdefault.jpg",
+      "publishedAt": "2022-10-28T00:15:11Z",
+      "description": "Olá jovens! Mais um episódio de \"Acredite nos seus sonhos: react a assaltos\", e no programa de hoje vamos ver como foi o papo ..."
+    },
+    {
+      "title": "Fascismo e Igreja Católica: A História Secreta do Papa Pio XI - Acredite #09 | João Carvalho",
+      "url": "https://www.youtube.com/watch?v=mbboiuMYazc",
+      "thumb": "https://i.ytimg.com/vi/mbboiuMYazc/hqdefault.jpg",
+      "publishedAt": "2022-10-27T00:30:07Z",
+      "description": "Olá jovens! Em mais um episódio de \"Acredite nos seus sonhos: react a assaltos\", vamos falar sobre o fascista Papa Pio XI, que ..."
+    },
+    {
+      "title": "João Carvalho reage a Lula no Flow Podcast via Meteoro Brasil - Acredite nos seus sonhos #08",
+      "url": "https://www.youtube.com/watch?v=WGrJdJRqyIs",
+      "thumb": "https://i.ytimg.com/vi/WGrJdJRqyIs/hqdefault.jpg",
+      "publishedAt": "2022-10-26T00:45:08Z",
+      "description": "Olá jovens! Mais um episódio de \"Acredite nos seus sonhos: react a assaltos\", e no programa de hoje vamos ver como foi o papo ..."
     }
-  ]
+  ],
+    "Soberana": [
+      {
+        "title": "QUEM FAZ A SOBERANA - BONZAGO",
+        "url": "https://www.youtube.com/watch?v=u5D41Q_wgZs",
+        "thumb": "https://i.ytimg.com/vi/u5D41Q_wgZs/sddefault.jpg",
+        "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLnU1RDQxUV93Z1pz",
+        "publishedAt": "2022-10-29T17:52:26Z",
+        "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Bonzago:\n- Tiktok: https://www.tiktok.com/@cortescanhotos\n- Twitter: https://twitter.com/bonzago\n- Instagram:  https://www.instagram.com/cortescanhotos/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV",
+        "profile": "https://yt3.ggpht.com/QE5GYo7XeUFal7JinpIsf0NhEGAiahXBh-y9JH77xjmZ3ScH0MiFVzUAuXEh1dtiAB97kJA6=s240-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "title": "QUEM FAZ A SOBERANA - JOÃO CARVALHO",
+        "url": "https://www.youtube.com/watch?v=fI-SdBFo9xk",
+        "thumb": "https://i.ytimg.com/vi/fI-SdBFo9xk/sddefault.jpg",
+        "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLmZJLVNkQkZvOXhr",
+        "publishedAt": "2022-10-16T02:55:14Z",
+        "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do João:\n- Youtube: https://www.youtube.com/c/assimdisseojoao/videos\n- Twitter: https://twitter.com/assimdisseojoao\n- Twitch: https://www.twitch.tv/assimdisseojoao\n- Instagram:  https://www.instagram.com/assimdisseojoao/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV"
+      },
+      {
+        "title": "QUEM FAZ A SOBERANA - GUS",
+        "url": "https://www.youtube.com/watch?v=Um_q9IEFSBU",
+        "thumb": "https://i.ytimg.com/vi/Um_q9IEFSBU/sddefault.jpg",
+        "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLlVtX3E5SUVGU0JV",
+        "publishedAt": "2022-10-09T20:00:13Z",
+        "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Gus:\n- Loja Cão Feio: https://caofeio.com.br/\n- Twitter: https://twitter.com/gu_bringel\n- Twitch: https://www.twitch.tv/comuna_paint\n- Instagram:  https://www.instagram.com/gu.bringel/\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV"
+      },
+      {
+        "title": "QUEM FAZ A SOBERANA - FROGGY",
+        "url": "https://www.youtube.com/watch?v=FwFevGBuOKI",
+        "thumb": "https://i.ytimg.com/vi/FwFevGBuOKI/sddefault.jpg",
+        "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLkZ3RmV2R0J1T0tJ",
+        "publishedAt": "2022-10-01T20:00:06Z",
+        "description": "Quem será o próximo membro a aparecer no QUEM FAZ A SOBERANA?\n\nArte do nosso querido Gus: https://www.instagram.com/gu.bringel/\n\nRedes do Froggy\n- Twitter: https://twitter.com/0froggy1\n- Twitch: https://www.twitch.tv/0froggy\n- Tiktok: https://www.tiktok.com/@lsaporiti\n\nRedes da Soberana:\n- Manifesto: https://soberanatv.github.io/\n- Discord: https://discord.gg/eB4mVkgWyX\n- Twitter: https://twitter.com/Soberana_TV"
+      },
+      {
+        "title": "Soberana nas Eleições - Carol Vigilar (Unidade Popular)",
+        "url": "https://www.youtube.com/watch?v=l01uuypEjoo",
+        "thumb": "https://i.ytimg.com/vi/l01uuypEjoo/sddefault.jpg",
+        "id": "VVU4dG5LVy1GTjZMZHZLYXp3NVJtT09RLmwwMXV1eXBFam9v",
+        "publishedAt": "2022-09-30T15:00:11Z",
+        "description": "No Soberana nas Eleições de hoje nós temos uma entrevista com a Carol Vigilar, candidata ao governo de São Paulo pela Unidade Popular.\n\nSiga a Carol nas redes:\nTwitter: https://twitter.com/CarolVigliar\nInstagram: https://www.instagram.com/carolvigliar.up/\n\nSiga o Movimento de Mulheres Olga Benário:\nhttps://www.instagram.com/movimentoolga/\n\nSiga a Soberana nas Redes:\nDiscord: https://discord.gg/eB4mVkgWyX\nTwitter: https://twitter.com/Soberana_TV\nInstagram: https://www.instagram.com/soberana.tv/\n\nEntrevistador: https://twitter.com/VinnyDays\nEdição: https://twitter.com/bonzago\nArte da Thumbnail: https://twitter.com/panquetriste"
+      }
+    ],
+    "Revolushow ™": [
+      {
+        "title": "O segundo Turno tá pegando fogo",
+        "url": "https://www.youtube.com/watch?v=f5V22zDAL-4",
+        "thumb": "https://i.ytimg.com/vi/f5V22zDAL-4/sddefault.jpg",
+        "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLmY1VjIyekRBTC00",
+        "publishedAt": "2022-10-26T01:26:02Z",
+        "description": "Zamiliano, Larissa Coutinho, Julia Rocha, Jones Manoel e Diego Miranda vão papear com vocês sobre a reta final do segunda turno das eleições presidenciais brasileiras.",
+        "profile": "https://yt3.ggpht.com/ytc/AMLnZu-4qRrqLfqHr9Jz4SKFOyghpwiJavTJJMDfIc9k=s240-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "title": "O que querem os comunistas nas eleições? Léo Péricles",
+        "url": "https://www.youtube.com/watch?v=6ebMP8XLcFQ",
+        "thumb": "https://i.ytimg.com/vi/6ebMP8XLcFQ/sddefault.jpg",
+        "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLjZlYk1QOFhMY0ZR",
+        "publishedAt": "2022-09-29T01:57:39Z",
+        "description": "Zamiliano, Julia Rocha, Diego Miranda, Larissa Coutinho e (talvez) Jones Manoel entrevistarão Léo Péricles, candidato à presidência pela Unidade Popular (UP)"
+      },
+      {
+        "title": "O que querem os comunistas no governo? - com Sofia Manzano",
+        "url": "https://www.youtube.com/watch?v=2NihkQSI7DI",
+        "thumb": "https://i.ytimg.com/vi/2NihkQSI7DI/sddefault.jpg",
+        "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLjJOaWhrUVNJN0RJ",
+        "publishedAt": "2022-09-23T01:32:21Z",
+        "description": "Zamiliano, Julia Rocha, Diego Miranda e Larissa coutinho entrevistam a candidata à presidência Sofia Manzano do Partido Comunista Brasileiro"
+      },
+      {
+        "title": "Analisando o primeiro debate eleitoral",
+        "url": "https://www.youtube.com/watch?v=NYw5i_ih9v0",
+        "thumb": "https://i.ytimg.com/vi/NYw5i_ih9v0/sddefault.jpg",
+        "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLk5ZdzVpX2loOXYw",
+        "publishedAt": "2022-09-01T02:24:19Z",
+        "description": "Zamiliano, Larissa Coutinho, Diego Miranda e Julia Rocha conversam sobre o debate do dia 28 dos candidatos a presidência na Band."
+      },
+      {
+        "title": "Live de Fim de Ano",
+        "url": "https://www.youtube.com/watch?v=zspyITvv_Sk",
+        "thumb": "https://i.ytimg.com/vi/zspyITvv_Sk/sddefault.jpg",
+        "id": "VVVhZzZuSmRIMjRjMkxIUnZlYllKd1JRLnpzcHlJVHZ2X1Nr",
+        "publishedAt": "2021-12-28T01:02:10Z",
+        "description": "Zamiliano, Larissa Coutinho, Diego Miranda, Jones Manoel e João carvalho vieram fechar o ano com vocês."
+      }
+    ],
+    "luideverso": [
+      {
+        "title": "OROCINHO REAGE A COMPILADO DE REDCAST | Cortes luideverso",
+        "url": "https://www.youtube.com/watch?v=IpkzdpuWA14",
+        "thumb": "https://i.ytimg.com/vi/IpkzdpuWA14/sddefault.jpg",
+        "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3Lklwa3pkcHVXQTE0",
+        "publishedAt": "2022-11-08T14:45:00Z",
+        "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@orochidois",
+        "profile": "https://yt3.ggpht.com/ytc/AMLnZu-2Nyc3shqcC0AMaUBHSQMGA2blrzT4JgN_xlpD=s240-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "title": "MONARK AINDA TEM ESPERANÇA DE PROVAREM A \"FRAUDE\" | Cortes luideverso",
+        "url": "https://www.youtube.com/watch?v=diy-toGf_cE",
+        "thumb": "https://i.ytimg.com/vi/diy-toGf_cE/sddefault.jpg",
+        "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LmRpeS10b0dmX2NF",
+        "publishedAt": "2022-11-07T19:54:20Z",
+        "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@Monark Talks - Cortes [Oficial]​"
+      },
+      {
+        "title": "LIBERAIS QUESTIONAM VIAGEM DE MUNDO SEM FIM EM CUBA | Cortes luideverso",
+        "url": "https://www.youtube.com/watch?v=g31UR-0Ww8Q",
+        "thumb": "https://i.ytimg.com/vi/g31UR-0Ww8Q/sddefault.jpg",
+        "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LmczMVVSLTBXdzhR",
+        "publishedAt": "2022-11-07T18:30:10Z",
+        "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\nVídeo incrível do @Mundo Sem Fim."
+      },
+      {
+        "title": "ECONOMISTA CHOCA ANCAPS: IMPOSTO NÃO É ROUBO | Cortes luideverso",
+        "url": "https://www.youtube.com/watch?v=1atv-ovjp1k",
+        "thumb": "https://i.ytimg.com/vi/1atv-ovjp1k/sddefault.jpg",
+        "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LjFhdHYtb3ZqcDFr",
+        "publishedAt": "2022-11-07T14:45:00Z",
+        "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide\n\n@André Roncaglia no @À Deriva [OFICIAL]"
+      },
+      {
+        "title": "PAULO KOGOS AINDA ESTÁ NA RUA PEDINDO GOLPE KKKK | Cortes luideverso",
+        "url": "https://www.youtube.com/watch?v=wGIhy8BDMGA",
+        "thumb": "https://i.ytimg.com/vi/wGIhy8BDMGA/sddefault.jpg",
+        "id": "VVVFVGpzaVdIckFIeUFET2loN0FDd0h3LndHSWh5OEJETUdB",
+        "publishedAt": "2022-11-06T18:43:42Z",
+        "description": "ME SIGA NO INSTAGRAM: https://www.instagram.com/luide/\n\nASSINE O AULÃO SOBRE CONTEÚDO: https://bit.ly/AULACONTEUDO\n\nLIVES NO SITE ROXO DE SEGUNDA A SEXTA FEIRA, A PARTIR DAS 10 DA MANHÃ (procure por /luidematos)\n\nTWITTER: https://twitter.com/luide"
+      }
+    ]
+  }
 }
