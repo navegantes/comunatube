@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import config from "../config/myconfig.json";
+import config from "../../config/myconfig.json";
 
 
 const StyledMenu = styled.header`

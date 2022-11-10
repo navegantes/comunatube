@@ -5,7 +5,7 @@ import { StyledTimeline } from "../src/components/Timeline";
 import config from "../src/config/myconfig.json";
 
 function HomePage() {
-  const estilosDaHomepage = { 
+  const estilosDaHomepage = {
     // backgroundColor: "red"
   };
 
@@ -24,15 +24,15 @@ function HomePage() {
         <Header />
         <TimeLine
           playlists={config.playlists}
-          // channelsList={[
-          //   "UCcoxGCRGcq6FhHbEvr2y9Vg",
-          //   "UCAMExYqcweM7PUebKfmLdFA",
-          //   "UC8tnKW-FN6LdvKazw5RmOOQ",
-          //   "UCC27hiJO_njp6v81Wd0b96g",
-          //   "UC7-Pp09PJX_SYP9oyMzUAtg",
-          //   "UCawkKjxvsJ1oShKVK4xxfJQ",
-          //   "UCETjsiWHrAHyADOih7ACwHw",
-          //   "UCag6nJdH24c2LHRvebYJwRQ"]}
+        // channelsList={[
+        //   "UCcoxGCRGcq6FhHbEvr2y9Vg",
+        //   "UCAMExYqcweM7PUebKfmLdFA",
+        //   "UC8tnKW-FN6LdvKazw5RmOOQ",
+        //   "UCC27hiJO_njp6v81Wd0b96g",
+        //   "UC7-Pp09PJX_SYP9oyMzUAtg",
+        //   "UCawkKjxvsJ1oShKVK4xxfJQ",
+        //   "UCETjsiWHrAHyADOih7ACwHw",
+        //   "UCag6nJdH24c2LHRvebYJwRQ"]}
         >
           Conteúdo
         </TimeLine>
