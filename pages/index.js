@@ -43,14 +43,15 @@ const StyledBanner = styled.div`
   margin: 56px auto 0;
   background-image: url(${({ bg }) => bg});
   background-size: cover;
+  background-position-y: -50px;
 
-  img {
+  /* img {
     margin-top: 50px;
     min-width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: 0px -50px;
-  }
+  } */
 `;
 
 // function Banner() {
@@ -99,6 +100,7 @@ function Header() {
             {config.job}
           </p>
         </div>
+
       </section>
     </StyledHeader>
   )
@@ -124,7 +126,7 @@ function TimeLine({ searchValues, ...props }) {
                 return titleNormalized.includes(searchValuesNormalized)
               }).map((video) => {
                 return (
-                  <a href={video.url} target="_blank">
+                  <a key={video.url} href={video.url} target="_blank">
                     <img src={video.thumb} />
                     <span>
                       {video.title}

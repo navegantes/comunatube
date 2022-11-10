@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
   flex: 1;
-  width: 70%;
+  width: 70vw;
   padding: 16px;
   margin: 0 auto;
   overflow: hidden;
   justify-content: center;
+
   h2 {
     font-size: 24px;
     /* margin-bottom: 16px; */
@@ -26,7 +27,6 @@ export const StyledTimeline = styled.div`
     padding: 0;
     overflow: hidden;
     padding: 16px;
-
     
     &>.header {
       display: flex;
@@ -42,7 +42,7 @@ export const StyledTimeline = styled.div`
 
     .playlist {
       
-      width: calc(100vw - 16px * 4);
+      width: 100%; //calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
