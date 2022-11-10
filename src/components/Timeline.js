@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
   flex: 1;
-  width: 100%;
+  width: 70%;
   padding: 16px;
+  margin: 0 auto;
   overflow: hidden;
+  justify-content: center;
   h2 {
     font-size: 24px;
     /* margin-bottom: 16px; */

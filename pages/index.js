@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
@@ -8,7 +9,8 @@ function HomePage() {
   const estilosDaHomepage = {
     // backgroundColor: "red"
   };
-
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+  // const valorDoFiltro = "";
 
   return (
     <>
@@ -19,20 +21,12 @@ function HomePage() {
         flex: 1,
         // backgroundColor: "red",
       }}>
-        <Menu />
-        <Banner />
+        <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+        <StyledBanner bg={config.banner} />
         <Header />
         <TimeLine
+          searchValues={valorDoFiltro}
           playlists={config.playlists}
-        // channelsList={[
-        //   "UCcoxGCRGcq6FhHbEvr2y9Vg",
-        //   "UCAMExYqcweM7PUebKfmLdFA",
-        //   "UC8tnKW-FN6LdvKazw5RmOOQ",
-        //   "UCC27hiJO_njp6v81Wd0b96g",
-        //   "UC7-Pp09PJX_SYP9oyMzUAtg",
-        //   "UCawkKjxvsJ1oShKVK4xxfJQ",
-        //   "UCETjsiWHrAHyADOih7ACwHw",
-        //   "UCag6nJdH24c2LHRvebYJwRQ"]}
         >
           Conteúdo
         </TimeLine>
@@ -45,24 +39,26 @@ export default HomePage
 
 const StyledBanner = styled.div`
   width: 95%;
-  margin: 0 auto;
+  height: 300px;
+  margin: 56px auto 0;
+  background-image: url(${({ bg }) => bg});
+  background-size: cover;
 
   img {
     margin-top: 50px;
     min-width: 100%;
-    height: 500px;
+    height: 300px;
     object-fit: cover;
     object-position: 0px -50px;
   }
 `;
 
-function Banner() {
-  return (
-    <StyledBanner>
-      <img src={`./${config.banner}`} />
-    </StyledBanner>
-  )
-}
+// function Banner() {
+//   return <StyledBanner bg={config.banner} />
+//   {/* <img src={`./${config.banner}`} /> */ }
+//   //   </StyledBanner>
+//   // )
+// }
 
 // function Menu() {
 //   return (
@@ -80,11 +76,11 @@ const StyledHeader = styled.div`
     border: 10px solid white;
   }
   .user-info {
-    margin-top: -50px;
+    margin-top: -30px;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 16px;
+    padding: 0 16px 0;
     gap: 16px;
   }
 `;
@@ -108,7 +104,7 @@ function Header() {
   )
 }
 
-function TimeLine(props) {
+function TimeLine({ searchValues, ...props }) {
   const playlistsNames = Object.keys(props.playlists)
 
   return (
@@ -116,19 +112,23 @@ function TimeLine(props) {
       {playlistsNames.map((playlistName) => {
         const videos = props.playlists[playlistName]
         return (
-          <section>
+          <section key={playlistName}>
             <div className="header">
               <img src={videos[0].profile} />
               <h2>{playlistName}</h2>
             </div>
             <div className="playlist">
-              {videos.map((video) => {
+              {videos.filter((video) => {
+                const titleNormalized = video.title.toLowerCase();
+                const searchValuesNormalized = searchValues.toLowerCase();
+                return titleNormalized.includes(searchValuesNormalized)
+              }).map((video) => {
                 return (
                   <a href={video.url} target="_blank">
                     <img src={video.thumb} />
-                    <spam>
+                    <span>
                       {video.title}
-                    </spam>
+                    </span>
                   </a>
                 )
               })}
