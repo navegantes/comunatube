@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import config from "../src/config/myconfig.json";
@@ -10,11 +9,9 @@ function HomePage() {
     // backgroundColor: "red"
   };
   const [valorDoFiltro, setValorDoFiltro] = React.useState("");
-  // const valorDoFiltro = "";
 
   return (
     <>
-      <CSSReset />
       <div style={{
         display: "flex",
         flexDirection: "column",
@@ -22,7 +19,7 @@ function HomePage() {
         // backgroundColor: "red",
       }}>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-        <StyledBanner bg={config.banner} />
+        {/* <StyledBanner bg={config.banner} /> */}
         <Header />
         <TimeLine
           searchValues={valorDoFiltro}
@@ -45,41 +42,22 @@ const StyledBanner = styled.div`
   background-size: cover;
   background-position-y: -50px;
 
-  /* img {
-    margin-top: 50px;
-    min-width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: 0px -50px;
-  } */
 `;
 
-// function Banner() {
-//   return <StyledBanner bg={config.banner} />
-//   {/* <img src={`./${config.banner}`} /> */ }
-//   //   </StyledBanner>
-//   // )
-// }
-
-// function Menu() {
-//   return (
-//     <div>
-//       Menu
-//     </div>
-//   )
-// }
-
 const StyledHeader = styled.div`
+  background-color: ${({ theme }) => theme.backgroundLevel1};
+  /* border-bottom: 1px solid rebeccapurple; */
   img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid ${({ theme }) => theme.backgroundLevel1};
   }
   .user-info {
-    margin-top: -30px;
+    margin-top: -26px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 0 16px 0;
     gap: 16px;
@@ -90,15 +68,19 @@ function Header() {
   return (
     <StyledHeader>
       {/* <img src="" /> */}
+      <StyledBanner bg={config.banner} />
       <section className="user-info">
-        <img src={`https://github.com/${config.github}.png`} />
-        <div>
-          <h2>
-            {`${config.name} (${config.github})`}
-          </h2>
-          <p>
-            {config.job}
-          </p>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <img src={`https://github.com/${config.github}.png`} />
+          <div>
+            <h2>
+              {/* {`${config.name} (${config.github})`} */}
+              {config.name}
+            </h2>
+            <p>
+              {config.job}
+            </p>
+          </div>
         </div>
 
         <audio src={config.audio} controls />

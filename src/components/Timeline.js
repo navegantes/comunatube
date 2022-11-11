@@ -56,6 +56,7 @@ export const StyledTimeline = styled.div`
         text-decoration: none;
         color: black;
         font-weight: bold;
+        margin-bottom: 10px;
         span {
           padding-top: 8px;
           display: block;
