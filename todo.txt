@@ -1,4 +1,18 @@
 
+# Aula 1 Desafios
+  [x] - Banner
+  [ ] - Readme
+  [ ] - Seção Favoritos
+
+# Aula 2
+
+
+
+
+
+
+
+
 
 https://youtube.googleapis.com/youtube/v3/channels?key=AIzaSyCZCSEmKhfnPOQNG0Sju4hlw2YDUxgi6pg&forUsername=SoberanaTV&part=id
 
@@ -17,8 +31,6 @@ Gamer de esquerda:       UC3ki5HFMB-fS5I-zDfslBUQ
 luideverso:              UCETjsiWHrAHyADOih7ACwHw
 Dimitra Vulcana:         UCcgl8D1QAwAmZekgv1-BaQg
 Humberto Matos:          UC3qAUf53j_dUv09jH7jsUJw
-
-
 
 
 UCcoxGCRGcq6FhHbEvr2y9Vg,UCAMExYqcweM7PUebKfmLdFA,UC8tnKW-FN6LdvKazw5RmOOQ,UCC27hiJO_njp6v81Wd0b96g,UC7-Pp09PJX_SYP9oyMzUAtg,UCawkKjxvsJ1oShKVK4xxfJQ,UCETjsiWHrAHyADOih7ACwHw,UCag6nJdH24c2LHRvebYJwRQ
