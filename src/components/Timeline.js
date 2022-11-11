@@ -60,7 +60,8 @@ export const StyledTimeline = styled.div`
         span {
           padding-top: 8px;
           display: block;
-          padding-right: 24px;
+          font-size: smaller;
+          padding-right: 16px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
       }
