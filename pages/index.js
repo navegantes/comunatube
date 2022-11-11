@@ -101,6 +101,8 @@ function Header() {
           </p>
         </div>
 
+        <audio src={config.audio} controls />
+
       </section>
     </StyledHeader>
   )
