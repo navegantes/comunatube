@@ -43,7 +43,7 @@ const StyledSwitch = styled.div`
     border-radius: 70px;
     /* left: 15px; */
     transition: 0.1s;
-    left: 4px;
+    left: 3px;
   }
 
   input:checked + label:after {
@@ -57,7 +57,7 @@ const StyledSwitch = styled.div`
 
   label:active:after {
     width: calc(100% - 6px);
-    right: 2px;
+    right: 1px;
   }
 
  `;
