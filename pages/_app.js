@@ -39,10 +39,12 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      {/* <ProviderWrapper> */}
       <ThemeProvider theme={theme[contexto.mode]}>
         <CSSReset />
         <Component {...pageProps} />
       </ThemeProvider>
+      {/* </ProviderWrapper> */}
     </>
   )
 }

@@ -5,9 +5,6 @@ import { StyledTimeline } from "../src/components/Timeline";
 import config from "../src/config/myconfig.json";
 
 function HomePage() {
-  const estilosDaHomepage = {
-    // backgroundColor: "red"
-  };
   const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
   return (
