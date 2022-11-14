@@ -1,6 +1,8 @@
-import { createClient } from "@supabase/supabase-js";
+// import { createClient } from "@supabase/supabase-js";
 import React from "react";
+import toast from 'react-hot-toast';
 
+import OfTheGulag from "../Toasts";
 import { StyledRegisterVideo } from "./styles";
 
 
@@ -25,9 +27,9 @@ function useForm(propsDoForm) {
   };
 }
 
-const PROJECT_URL = "https://qsyqzguwvjgeagktzpri.supabase.co";
-const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzeXF6Z3V3dmpnZWFna3R6cHJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgxOTAwNDcsImV4cCI6MTk4Mzc2NjA0N30.DKtuMG92qh2-R5BzRCh7NnXcYZDvlBiNhdpdlnTmulo"
-const supabase = createClient(PROJECT_URL, API_KEY)
+// const PROJECT_URL = "https://qsyqzguwvjgeagktzpri.supabase.co";
+// const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzeXF6Z3V3dmpnZWFna3R6cHJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgxOTAwNDcsImV4cCI6MTk4Mzc2NjA0N30.DKtuMG92qh2-R5BzRCh7NnXcYZDvlBiNhdpdlnTmulo"
+// const supabase = createClient(PROJECT_URL, API_KEY)
 
 function getYoutubeThumb(url) {
   return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`
@@ -42,6 +44,10 @@ export default function RegisterVideo() {
   });
   const [formVisible, setFormVisible] = React.useState(false);
 
+  const notify = () => {
+    toast.custom((t) => (<OfTheGulag target={t} />), { duration: 5000 })
+  }
+
   return (
     <StyledRegisterVideo>
       <button className="add-video" onClick={() => setFormVisible(true)}>
@@ -50,18 +56,21 @@ export default function RegisterVideo() {
       {formVisible && (
         <form onSubmit={(ev) => {
           ev.preventDefault();
-          supabase.from("video").insert({
-            title: formCadastro.values.titulo,
-            url: formCadastro.values.url,
-            thumb: getYoutubeThumb(formCadastro.values.url),
-            playlist: "jogos"
-          })
-            .then((oqueveio) => {
-              console.log(oqueveio);
-            })
-            .catch((err) => {
-              console.log(err);
-            })
+
+          notify();
+
+          // supabase.from("video").insert({
+          //   title: formCadastro.values.titulo,
+          //   url: formCadastro.values.url,
+          //   thumb: getYoutubeThumb(formCadastro.values.url),
+          //   playlist: "jogos"
+          // })
+          //   .then((oqueveio) => {
+          //     console.log(oqueveio);
+          //   })
+          //   .catch((err) => {
+          //     console.log(err);
+          //   })
 
           setFormVisible(false);
           formCadastro.clearForm();
@@ -92,3 +101,5 @@ export default function RegisterVideo() {
     </StyledRegisterVideo>
   )
 }
+
+

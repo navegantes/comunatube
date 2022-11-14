@@ -69,7 +69,7 @@ export default function Search({ valorDoFiltro, setValorDoFiltro, theme }) {
 
   return (
     <StyledSearch>
-      <img src={`${config.icon}`} width={28} />
+      <img src={`${config.img.icon[0]}`} width={28} />
       <input
         type="text"
         onChange={

@@ -2,9 +2,14 @@
   "name": "Raphael Navegantes",
   "job": "Computer Engineer",
   "github": "navegantes",
-  "banner": "lenin.jpg",
-  "logo": "logo.png",
-  "icon": "assets/comunista.png",
+  "img": {
+    "banner": "lenin.jpg",
+    "logo": "logo.png",
+    "icon": [
+      "assets/comunista.png",
+      "assets/red-Stalin.gif"
+    ]
+  },
   "audio": "audio/The_Internationale.opus",
   "playlists": {
     "História Pública": [

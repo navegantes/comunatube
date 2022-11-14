@@ -65,7 +65,7 @@ function Header() {
   return (
     <StyledHeader>
       {/* <img src="" /> */}
-      <StyledBanner bg={config.banner} />
+      <StyledBanner bg={config.img.banner} />
       <section className="user-info">
         <div style={{ display: "flex", alignItems: "center" }}>
           <img src={`https://github.com/${config.github}.png`} />
