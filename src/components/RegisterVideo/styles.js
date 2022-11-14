@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledRegisterVideo = styled.div`
   .add-video {
-    width: 50px;
-    height: 50px;
+    width: 64px;
+    height: 64px;
     font-size: 20px;
     color: inherit;
     position: fixed;
@@ -25,6 +25,11 @@ export const StyledRegisterVideo = styled.div`
     background-color: transparent;
     border: none;
     cursor: pointer;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+    }
   }
   button[type="submit"] {
     background-color: red;

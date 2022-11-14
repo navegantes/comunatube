@@ -11,7 +11,7 @@ const StyledSwitch = styled.div`
     visibility: hidden;
   }
   label {
-    width: 60px;
+    width: 64px;
     height: 32px;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ const StyledSwitch = styled.div`
     cursor: pointer;
     transition: 0.5s;
     left: 0px;
-    gap: 4px;
+    gap: 6px;
   }
   span {
     display: inline-flex;
@@ -56,8 +56,7 @@ const StyledSwitch = styled.div`
   }
 
   label:active:after {
-    width: calc(100% - 6px);
-    right: 1px;
+    width: calc(100% - 7px);
   }
 
  `;

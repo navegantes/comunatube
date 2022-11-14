@@ -3,11 +3,15 @@
   "job": "Computer Engineer",
   "github": "navegantes",
   "img": {
-    "banner": "lenin.jpg",
+    "banner": ["lenin.jpg", "assets/comunaParty.gif"],
     "logo": "logo.png",
     "icon": [
-      "assets/comunista.png",
-      "assets/red-Stalin.gif"
+      "assets/comunista.png"
+    ],
+    "gif": [
+      "assets/red-Stalin.gif",
+      "assets/bugsBunny.gif",
+      "assets/ghost.png"
     ]
   },
   "audio": "audio/The_Internationale.opus",

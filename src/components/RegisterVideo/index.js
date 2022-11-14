@@ -1,8 +1,10 @@
 // import { createClient } from "@supabase/supabase-js";
 import React from "react";
 import toast from 'react-hot-toast';
+import { CgCloseO } from "react-icons/cg";
+import { RiVideoAddFill } from "react-icons/ri";
 
-import OfTheGulag from "../Toasts";
+import NotifyToast from "../Toasts";
 import { StyledRegisterVideo } from "./styles";
 
 
@@ -27,9 +29,9 @@ function useForm(propsDoForm) {
   };
 }
 
-// const PROJECT_URL = "https://qsyqzguwvjgeagktzpri.supabase.co";
-// const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzeXF6Z3V3dmpnZWFna3R6cHJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgxOTAwNDcsImV4cCI6MTk4Mzc2NjA0N30.DKtuMG92qh2-R5BzRCh7NnXcYZDvlBiNhdpdlnTmulo"
-// const supabase = createClient(PROJECT_URL, API_KEY)
+// const projectUrl = process.env.NEXT_PUBLIC_PROJECT_URL;
+// const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+// const supabase = createClient(projectUrl, apiKey)
 
 function getYoutubeThumb(url) {
   return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`
@@ -38,48 +40,75 @@ function getYoutubeThumb(url) {
 export default function RegisterVideo() {
   const formCadastro = useForm({
     initialValues: {
+      playlist: "",
       titulo: "Frostpunk",
       url: "https://www.youtube.com/watch?v=QsqatJxAUtk"
     }
   });
+
   const [formVisible, setFormVisible] = React.useState(false);
 
-  const notify = () => {
-    toast.custom((t) => (<OfTheGulag target={t} />), { duration: 5000 })
+  const notify = (type) => {
+
+    toast.custom((t) => (
+      <NotifyToast
+        type={type}
+        target={t}
+      />
+    ), { duration: 5000 })
+  }
+
+  const handleSubmit = (ev) => {
+    ev.preventDefault();
+
+    Object.keys(formCadastro.values).length === 0 ? (
+      notify("Ghost")
+    ) : (
+      formCadastro.values.playlist === "" ? (
+        formCadastro.values.playlist = "GULAG",
+        notify("Gulag")
+      ) : (
+        notify("BugsBunny")
+      )
+    )
+
+    console.log(formCadastro.values);
+
+    // supabase.from("video").insert({
+    //   title: formCadastro.values.titulo,
+    //   url: formCadastro.values.url,
+    //   thumb: getYoutubeThumb(formCadastro.values.url),
+    //   playlist: "jogos"
+    // })
+    //   .then((oqueveio) => {
+    //     console.log(oqueveio);
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   })
+
+    setFormVisible(false);
+    formCadastro.clearForm();
   }
 
   return (
     <StyledRegisterVideo>
       <button className="add-video" onClick={() => setFormVisible(true)}>
-        +
+        <RiVideoAddFill />
       </button>
       {formVisible && (
-        <form onSubmit={(ev) => {
-          ev.preventDefault();
-
-          notify();
-
-          // supabase.from("video").insert({
-          //   title: formCadastro.values.titulo,
-          //   url: formCadastro.values.url,
-          //   thumb: getYoutubeThumb(formCadastro.values.url),
-          //   playlist: "jogos"
-          // })
-          //   .then((oqueveio) => {
-          //     console.log(oqueveio);
-          //   })
-          //   .catch((err) => {
-          //     console.log(err);
-          //   })
-
-          setFormVisible(false);
-          formCadastro.clearForm();
-        }}>
+        <form onSubmit={handleSubmit}>
           <div>
             <button type="button" className="close-modal"
               onClick={() => setFormVisible(false)}>
-              x
+              <CgCloseO size={24} />
             </button>
+            <input
+              placeholder="Playlist"
+              name="playlist"
+              value={formCadastro.values.playlist}
+              onChange={formCadastro.handleChange}
+            />
             <input
               placeholder="Título do vídeo"
               name="titulo"
