@@ -1,8 +1,11 @@
 import React from "react";
+import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from "styled-components";
 
 import { CSSReset } from "../src/components/CSSReset";
 import ColorModeProvider, { ColorModeContext } from "../src/components/Menu/components/ColorMode";
+import RegisterVideo from "../src/components/RegisterVideo";
+
 
 
 const theme = {
@@ -22,10 +25,6 @@ const theme = {
   }
 };
 
-// _app.js -> Definiçoes globais do NextJS
-// Themeprovider -> Prover o temapara a app toda.
-// ColorModeProvider -> Prove o state de light ou dark mode pra todo mundo
-
 function ProviderWrapper(props) {
   return (
     <ColorModeProvider initialMode={"dark"}>
@@ -35,15 +34,20 @@ function ProviderWrapper(props) {
 }
 
 function MyApp({ Component, pageProps }) {
-  const contexto = React.useContext(ColorModeContext)
+  const contexto = React.useContext(ColorModeContext);
 
   return (
-    <>
-      <ThemeProvider theme={theme[contexto.mode]}>
-        <CSSReset />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={theme[contexto.mode]}>
+      <CSSReset />
+      <Component {...pageProps} />
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          custom: { duration: 5000 }
+        }}
+      />
+      <RegisterVideo />
+    </ThemeProvider>
   )
 }
 

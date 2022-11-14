@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Menu from "../src/components/Menu";
+import { ColorModeContext } from "../src/components/Menu/components/ColorMode";
 import { StyledTimeline } from "../src/components/Timeline";
 import config from "../src/config/myconfig.json";
 
 function HomePage() {
-  const estilosDaHomepage = {
-    // backgroundColor: "red"
-  };
   const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
   return (
@@ -65,10 +63,14 @@ const StyledHeader = styled.div`
 `;
 
 function Header() {
+  const contexto = React.useContext(ColorModeContext);
+
+  const bkg = contexto.mode === 'dark' ? config.img.banner[1] : config.img.banner[0];
+
   return (
     <StyledHeader>
       {/* <img src="" /> */}
-      <StyledBanner bg={config.banner} />
+      <StyledBanner bg={bkg} />
       <section className="user-info">
         <div style={{ display: "flex", alignItems: "center" }}>
           <img src={`https://github.com/${config.github}.png`} />
