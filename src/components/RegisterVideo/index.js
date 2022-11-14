@@ -55,14 +55,15 @@ export default function RegisterVideo() {
         type={type}
         target={t}
       />
-    ), { duration: 5000 })
+    ), { duration: 6000 })
   }
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
 
     Object.keys(formCadastro.values).length === 0 ? (
-      notify("Ghost")
+      notify("Ghost"),
+      setFormVisible(true)
     ) : (
       formCadastro.values.playlist === "" ? (
         formCadastro.values.playlist = "GULAG",
@@ -70,9 +71,10 @@ export default function RegisterVideo() {
       ) : (
         notify("BugsBunny")
       )
+      // enviardados
     )
 
-    console.log(formCadastro.values);
+    // console.log(formCadastro.values);
 
     // supabase.from("video").insert({
     //   title: formCadastro.values.titulo,
@@ -87,7 +89,7 @@ export default function RegisterVideo() {
     //     console.log(err);
     //   })
 
-    setFormVisible(false);
+    // setFormVisible(false);
     formCadastro.clearForm();
   }
 
@@ -124,6 +126,12 @@ export default function RegisterVideo() {
             <button type="submit" >
               Cadastrar
             </button>
+            {formCadastro.values.url ?
+              <div>
+                <img src={getYoutubeThumb(formCadastro.values.url)} />
+              </div>
+              : ""
+            }
           </div>
         </form>
       )}

@@ -2,8 +2,6 @@ import React from "react";
 import { FiSearch } from 'react-icons/fi';
 import styled, { css } from "styled-components";
 
-import config from "../../../config/myconfig.json";
-
 
 const StyledSearch = styled.div`
   display: flex;
@@ -21,15 +19,12 @@ const StyledSearch = styled.div`
   }
   
   input {
-    width: 70%;
-    padding: 4px 16px;
+    width: 80%;
+    padding: 4px 20px;
     border: none;
     outline: none;
     color: ${({ theme }) => theme.textColorBase};
     background-color: ${({ theme }) => theme.backgroundBase};
-  }
-  input:focus{
-    border: 1px solid red;
   }
   button {
     flex: 1;
@@ -47,12 +42,12 @@ const StyledSearch = styled.div`
   }
 `;
 
-const icon = css`
-  color: ${({ theme }) => theme.textColorBase};
+const focusStyle = css`
+  border: 2px solid red;
 `;
 
 const StyledIconSearch = styled(FiSearch)`
-  ${icon}
+  color: ${({ theme }) => theme.textColorBase};
 `;
 
 // Home 
@@ -67,20 +62,29 @@ export default function Search({ valorDoFiltro, setValorDoFiltro, theme }) {
   const valorDaBusca = valorDoFiltro;
   const setValorDaBusca = setValorDoFiltro;
 
+  const hasFocus = (e) => {
+    e.target.parentElement.style = focusStyle;
+    // console.log(e.target.parentElement.style.border);
+  };
+  const onBlur = (e) => {
+    e.target.parentElement.style = {};
+    // console.log(e.target.parentElement.style);
+  };
+
+
   return (
     <StyledSearch>
-      <img src={`${config.img.icon[0]}`} width={28} />
+      {/* <img src={`${config.img.icon[0]}`} width={28} /> */}
       <input
         type="text"
         onChange={
           (ev) => setValorDaBusca(ev.target.value)}
         value={valorDaBusca}
+        onFocus={hasFocus}
+        onBlur={onBlur}
       />
       <button>
-        {/* 🔎 */}
         <StyledIconSearch size={28} />
-        {/* <FiSun size={32} style={{ color: `${({ theme }) => theme.textColorBase}` }} /> */}
-
       </button>
     </StyledSearch>
   )

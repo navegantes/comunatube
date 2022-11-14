@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from "styled-components";
@@ -39,11 +40,17 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme[contexto.mode]}>
       <CSSReset />
+      <Head>
+        <link rel="shortcut icon" href="/comunista.png" />
+        <title>ComunaTube</title>
+      </Head>
+
       <Component {...pageProps} />
+
       <Toaster
         position="top-center"
         toastOptions={{
-          custom: { duration: 5000 }
+          custom: { duration: 6000 }
         }}
       />
       <RegisterVideo />

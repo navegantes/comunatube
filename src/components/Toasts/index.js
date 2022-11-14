@@ -50,10 +50,10 @@ export const StyledGulagToast = styled.div`
 
 const notifyType = {
   "Gulag": {
-    title: "Faltou indicar o nome da playlist do seu vídeo.",
-    subTitle: "Seu video foi para a playlist da GULAG!",
+    title: "Faltou informar a playlist do seu vídeo.",
+    subTitle: "Seu video foi direto para a playlist da GULAG!",
     alt: "Stali Bye bye meme",
-    color: "red",
+    color: "#ff860d",
     src: config.img.gif[0]
   },
   "BugsBunny": {
@@ -65,10 +65,24 @@ const notifyType = {
   },
   "Ghost": {
     title: "Formulário vazio!",
-    subTitle: "Preencha os campos do formulário.",
+    subTitle: "Preencha os dados do seu vídeo.",
     alt: "Ghost comunist meme",
     color: "#ff860d",
     src: config.img.gif[2]
+  },
+  "Delete": {
+    title: "Vídeo removido!",
+    subTitle: "O video foi de arrasta pra cima com sucesso!",
+    alt: "Angry people",
+    color: "#17ff3a",
+    src: config.img.gif[3]
+  },
+  "Jimo": {
+    title: "JIMO!",
+    subTitle: "Esse canal é puro suco do jimo e está BANIDO!",
+    alt: "Jimo product",
+    color: "#ff0000",
+    src: config.img.gif[4]
   }
 }
 

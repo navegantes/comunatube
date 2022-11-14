@@ -11,7 +11,10 @@
     "gif": [
       "assets/red-Stalin.gif",
       "assets/bugsBunny.gif",
-      "assets/ghost.png"
+      "assets/ghost.png",
+      "assets/delete.gif",
+      "assets/jimo.jpg"
+
     ]
   },
   "audio": "audio/The_Internationale.opus",

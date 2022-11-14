@@ -39,6 +39,7 @@ export const StyledRegisterVideo = styled.div`
     cursor: pointer;
     color: inherit;
   }
+  
   form {
     width: 100%;
     padding: 5%;
@@ -60,6 +61,15 @@ export const StyledRegisterVideo = styled.div`
       position: relative;
       padding: 16px;
       padding-top: 40px;
+      
+      & > div {
+        padding-top: 24px;
+        margin-top: 24px;
+        border-top: 2px solid ${({ theme }) => theme.backgroundBase};
+        &>img {
+          width: 100%;
+        }
+      }
     }
   }
   input {
