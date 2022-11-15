@@ -38,12 +38,12 @@
 
 <div align="center">
   <div align="center">
-    <img alt="Screenshot light" src="public/img/screen_light.jpg" width=250>
-    <img alt="Screenshot dark" src="public/img/screen_dark.jpg" width=250>
+    <img alt="Screenshot light" src="public/img/screen_light.jpg" width=300>
+    <img alt="Screenshot dark" src="public/img/screen_dark.jpg" width=300>
   </div>
   <div align="center">
-    <img alt="cadastrar" src="public/img/newvideo_light.png" width=250>
-    <img alt="cadastrar" src="public/img/newvideo_dark.png" width=250>
+    <img alt="cadastrar" src="public/img/newvideo_light.png" width=300>
+    <img alt="cadastrar" src="public/img/newvideo_dark.png" width=300>
   </div>
   <!-- <img alt="Recuprerar senha" src="public/recuperar_senha.png" width=250>
   <img alt="Encontrar job" src="public/encontrar_jobs.png" width=250>
