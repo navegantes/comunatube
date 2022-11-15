@@ -24,7 +24,7 @@ function useForm(propsDoForm) {
       })
     },
     clearForm() {
-      setValues({});
+      setValues({ playlist: "", titulo: "", url: "" });
     }
   };
 }
@@ -41,10 +41,12 @@ export default function RegisterVideo() {
   const formCadastro = useForm({
     initialValues: {
       playlist: "",
-      titulo: "Frostpunk",
-      url: "https://www.youtube.com/watch?v=QsqatJxAUtk"
+      titulo: "",
+      url: ""
     }
   });
+  // titulo: "Frostpunk",
+  // url: "https://www.youtube.com/watch?v=QsqatJxAUtk"
 
   const [formVisible, setFormVisible] = React.useState(false);
 
@@ -62,13 +64,14 @@ export default function RegisterVideo() {
     ev.preventDefault();
 
     Object.keys(formCadastro.values).length === 0 ? (
-      notify("Ghost"),
-      setFormVisible(true)
+      notify("Ghost")
     ) : (
-      formCadastro.values.playlist === "" ? (
+      formCadastro.values.playlist == "" ? (
+        console.log("GULAG", formCadastro.values.playlist),
         formCadastro.values.playlist = "GULAG",
         notify("Gulag")
       ) : (
+        console.log("BUGS", formCadastro.values.playlist),
         notify("BugsBunny")
       )
       // enviardados
@@ -89,7 +92,7 @@ export default function RegisterVideo() {
     //     console.log(err);
     //   })
 
-    // setFormVisible(false);
+    setFormVisible(false);
     formCadastro.clearForm();
   }
 

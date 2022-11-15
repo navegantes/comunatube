@@ -15,11 +15,11 @@ const popup = keyframes`
 
 export const StyledGulagToast = styled.div`
   display: flex;
-  background-color: ${({ theme }) => theme.backgroundLevel2};
+  background-color: ${(props) => props.color};
   padding: 16px;
   animation: ${popup} .2s ease-in-out;
   border-radius: 8px;
-  border-left: 10px solid ${(props) => props.color};
+  /* border-left: 10px solid ${(props) => props.color}; */
 
   .content {
     display: flex;
@@ -27,13 +27,16 @@ export const StyledGulagToast = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 8px 8px 0px;
-    border-left: 2px solid ${({ theme }) => theme.borderBase};
+    /* border-left: 2px solid #282828; // ${({ theme }) => theme.borderBase}; */
 
     button {
       border: none;
       padding: 4px 8px;
       border-radius: 2px;
-      background-color: ${(props) => props.color};
+      /* background-color: ${(props) => props.color}; */
+    }
+    span {
+      opacity: 75%;
     }
   }
 
@@ -41,9 +44,6 @@ export const StyledGulagToast = styled.div`
     width: auto;
     height: 92px;
     margin-right: 12px;
-  }
-  span {
-    opacity: 60%;
   }
 
 `;

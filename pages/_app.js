@@ -41,14 +41,14 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={theme[contexto.mode]}>
       <CSSReset />
       <Head>
-        <link rel="shortcut icon" href="/comunista.png" />
+        <link rel="shortcut icon" href="/star.svg" />
         <title>ComunaTube</title>
       </Head>
 
       <Component {...pageProps} />
 
       <Toaster
-        position="top-center"
+        position="top-right"
         toastOptions={{
           custom: { duration: 6000 }
         }}

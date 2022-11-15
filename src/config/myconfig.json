@@ -3,11 +3,7 @@
   "job": "Computer Engineer",
   "github": "navegantes",
   "img": {
-    "banner": ["lenin.jpg", "assets/comunaParty.gif"],
-    "logo": "logo.png",
-    "icon": [
-      "assets/comunista.png"
-    ],
+    "banner": ["img/lenin.jpg", "assets/comunaParty.gif"],
     "gif": [
       "assets/red-Stalin.gif",
       "assets/bugsBunny.gif",
